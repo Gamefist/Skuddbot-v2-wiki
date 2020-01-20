@@ -6,4 +6,5 @@
 * [Commands](commands.md)
 * [Features](features.md)
 * [FAQ](faq.md)
+  * [Test](faq.md)
 

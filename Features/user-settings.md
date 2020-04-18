@@ -26,4 +26,4 @@ Hello!
 Hello!
 
 ### Mingame reminders
-Hello!
+> This setting is still under development and not in use yet.

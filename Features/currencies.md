@@ -1,7 +1,8 @@
 # Currencies
 
 ## Introduction
-Skuddbot features a currency system, with support for multiple currencies. At the moment we have only one, but there are definetly more to come!
+Skuddbot features a currency system, with support for multiple currencies. Currencies can be spent, gained or lost by users.
+At the moment we have only one, but there are definetly more to come! 
 
 ## Available Currencies
 | Currency name | Technical Name | Used for              | Leaderboard? | Editable? |
@@ -29,14 +30,14 @@ The command for viewing and editing an users currencies is `!currency`.
 > Reactions can be clicked to get a more detailed response.
 
 #### Permission Requirements
-| Operation                                                                          | Required permissions    |
-|------------------------------------------------------------------------------------|-------------------------|
-| Viewing your own currencies.                                                       | No permissions required |
-| Viewing someone else's currencies.                                                 | No permissions required |
-| Viewing someone else's currencies, who has made their profile private.<sup>3</sup> | Server Admin            |
-| Editing your own, or someone else's currencies.                                    | Server Admin            |
+| Operation                                                              | Required permissions    |
+|------------------------------------------------------------------------|-------------------------|
+| Viewing your own currencies.                                           | No permissions required |
+| Viewing someone else's currencies.                                     | No permissions required |
+| Viewing someone else's currencies, who has made their profile private. | Server Admin            |
+| Editing your own, or someone else's currencies.                        | Server Admin            |
 > For more information on permissions, view the [Permissions]() article.  
-> For more information about making your profile private, view the profile private setting in [User Settings]().
+> For more information about making your profile private, view the profile private setting in [User Settings](user-settings.md#profile-private).
 
 
 

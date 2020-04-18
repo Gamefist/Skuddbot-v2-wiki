@@ -8,24 +8,36 @@ Skuddbot features a currency system, with support for multiple currencies. At th
 |---------------|----------------|-----------------------|--------------|-----------|
 | Skuddbux      | `SKUDDBUX`     | Betting in minigames. | Yes          | Yes       |
 ## Commmands
+### View and edit
 The command for viewing and editing an users currencies is `!currency`.
 
-### Command parameters
+#### Command parameters
 | Parameter          | Type             | Description                                                                                                                                                                             | Required?    |
 |--------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | User ID / Mention  | Number / Mention | Speciefies what user you want to view/edit, defaults to yourself.                                                                                                                       | When editing |
 | Currency           | String           | This parameter takes a technical name of a currency. This specifies the currency you want to edit. Parameter is automatically set to upper case and dashes are replaced by underscores. | When editing |
 | Add / Remove / Set | String           | This parameter can be `add`, `remove` or `set`. This specifies what operation you want to carry out on the specified currency                                                           | When editing |
 | Amount             | Number           | This parameter specifies with what amount you want to carry out the specified operation.                                                                                                | When editing |
-### Command examples
+#### Command examples
 | Example                                           | Action                                                          | Response                                         |
 |---------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------|
 | `!currency`                                       | Simplest form, shows your own currencies.                       | Embed with your currencies.                      |
 | `!currency @MyNameIsDave#0001`                    | Shows the currencies of user MyNameIsDave#0001.                 | Embed with currencies of user MyNameIsDave#0001. |
-| `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | :white_check_mark: reaction to the message.      |
-| `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | :white_check_mark: reaction to the message.      |
-| `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | :white_check_mark: reaction to the message.      |
-### Permission requirements
+| `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message.                       |
+| `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.                       |
+| `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.                       |
+#### Permission Requirements
+| Operation                          | Required permissions    |
+|------------------------------------|-------------------------|
+| Viewing your own currencies.       | No permissions required |
+| Viewing someone else's currencies. | No permissions required |
+| Viewing someone else's currencies that has made their profile private. | Server Admin            |
+| Editing your own, or someone else's currencies.                        | Server Admin            |
+> For more information on permissions, view the [Permissions]() article.
+
+
+
+
 
 
 

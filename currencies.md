@@ -26,17 +26,17 @@ The command for viewing and editing an users currencies is `!currency`.
 | `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message.                       |
 | `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.                       |
 | `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.                       |
-> <sup>1</sup>Reactions can be clicked to get a more detailed response.
+> Reactions can be clicked to get a more detailed response.
 
 #### Permission Requirements
-| Operation                                                                          | Required permissions<sup>2</sup> |
-|------------------------------------------------------------------------------------|----------------------------------|
-| Viewing your own currencies.                                                       | No permissions required          |
-| Viewing someone else's currencies.                                                 | No permissions required          |
-| Viewing someone else's currencies, who has made their profile private.<sup>3</sup> | Server Admin                     |
-| Editing your own, or someone else's currencies.                                    | Server Admin                     |
-> <sup>2</sup>For more information on permissions, view the [Permissions](contact.md#discord-dms) article.
-> <sup>3</sup>For more information about making your profile private, view the profile private setting in [User Settings]().
+| Operation                                                                          | Required permissions    |
+|------------------------------------------------------------------------------------|-------------------------|
+| Viewing your own currencies.                                                       | No permissions required |
+| Viewing someone else's currencies.                                                 | No permissions required |
+| Viewing someone else's currencies, who has made their profile private.<sup>3</sup> | Server Admin            |
+| Editing your own, or someone else's currencies.                                    | Server Admin            |
+> For more information on permissions, view the [Permissions]() article.  
+> For more information about making your profile private, view the profile private setting in [User Settings]().
 
 
 

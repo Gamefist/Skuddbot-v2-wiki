@@ -1,16 +1,11 @@
----
-description: The revolutionary (and fun) Discord Bot.
----
+# Skuddbot v2 Wiki
 
-# Welcome to skuddbot!
-
-## **User Manual**
-
- for alpha v0.4 - Still updating.
 
 ![](https://lh6.googleusercontent.com/q2h6ehU-36I89WL3kJ4lfRVhrvdZ7beEEHi3s6NiQJSPXM4L6DIraIVusdXQ04BrKsYYJRXAihAk_HbJ0700LWlWYI9uRj33fxPdr9-FOtp0J3ewIaX7140Z-NE4Nqmv3W94CVbc)
 
-By Cooltimmetje
+Welcome to the Skuddbot v2 wiki! Here you can find all documentation you need to use Skuddbot.
+This wiki is a work in progress, and is being built. If you can't find something, please refer to the [I need help](i-need-help.md) section!
 
-[Privacy Statement](https://www.google.com/url?q=https://goo.gl/y0goqT&sa=D&ust=1578675020039000) \| [Discord Server](https://www.google.com/url?q=http://discord.skuddbot.xyz&sa=D&ust=1578675020039000) \| [Source Code](https://www.google.com/url?q=https://github.com/Cooltimmetje/Skuddbot&sa=D&ust=1578675020039000) \| [Artwork by Jessica Sonnet](https://www.google.com/url?q=https://www.twitch.tv/jessica_sonnet&sa=D&ust=1578675020040000)
+ [Official Skuddbot Discord Server](https://discord.gg/GmrwEka) \| [Source Code](https://github.com/Cooltimmetje/Skuddbot-v2) \| [Artwork by Jessica Sonnet](https://twitter.com/jessicasonnet)
+
 

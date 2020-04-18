@@ -1,10 +1,7 @@
 # Table of contents
 
-* [Welcome to skuddbot!](README.md)
-* [Before you begin using Skuddbot](before-you-begin-using-skuddbot.md)
-* [Getting started with Skuddbot](getting-started-with-skuddbot.md)
-* [Commands](commands.md)
-* [Features](features.md)
-* [FAQ](faq.md)
-  * [Test](faq.md)
+* [Skuddbot v2 Wiki](README.md)
+* [Getting started](before-you-begin-using-skuddbot.md)
+* [I need help](i-need-help.md)
+  * [Contact](contact.md)
 

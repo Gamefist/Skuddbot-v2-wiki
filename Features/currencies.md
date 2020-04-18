@@ -11,6 +11,13 @@ At the moment we have only one, but there are definetly more to come!
 ## Commmands
 ### View and edit
 The command for viewing and editing an users currencies is `!currency`.
+This command also listens to the following aliasses:
+- `!currencies`
+- `!wallet`
+- `!skuddbux`
+- `!bux`
+- `!balance`
+- `!bal`
 
 #### Command parameters
 | Parameter          | Type             | Description                                                                                                                                                                             | Required?    |
@@ -37,7 +44,7 @@ The command for viewing and editing an users currencies is `!currency`.
 | Viewing someone else's currencies, who has made their profile private. | Server Admin            |
 | Editing your own, or someone else's currencies.                        | Server Admin            |
 > For more information on permissions, view the [Permissions]() article.  
-> For more information about making your profile private, view the profile private setting in [User Settings](user-settings.md#profile-private).
+> For more information about making your profile private, view the profile private setting in [User Settings](user-settings.md#profile-private) article.
 
 
 

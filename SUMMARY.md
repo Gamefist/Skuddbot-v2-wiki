@@ -5,6 +5,6 @@
 * Features
     * [Currencies](Features/currencies.md)
     * [User Settings](Features/user-settings.md)
-* [I need help](i-need-help.md)
-  * [Contact](contact.md)
+* [I need help](Help/i-need-help.md)
+  * [Contact](Help/contact.md)
 

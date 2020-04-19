@@ -57,3 +57,7 @@ This command also listens to the following aliasses:
 | `!usersettings MENTION_ME`      | Views more detailed information about MENTION_ME setting.  | A list of detailed infromation about the MENTION_ME setting. |
 | `!usersettings MENTION_ME true` | Updates the setting MENTION_ME to true.                    | ✅ reaction to the message.                                   |
 > Reactions can be clicked to get a more detailed response.
+
+#### Command permissions
+This command requires no additional permissions.
+> For more information about permissions, view the [Permissions]() article.

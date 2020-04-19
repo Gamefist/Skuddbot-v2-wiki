@@ -31,10 +31,10 @@ This command also listens to the following aliasses:
 |---------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------|
 | `!currency`                                       | Simplest form, shows your own currencies.                       | Embed with your currencies.                      |
 | `!currency @MyNameIsDave#0001`                    | Shows the currencies of user MyNameIsDave#0001.                 | Embed with currencies of user MyNameIsDave#0001. |
-| `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message.                       |
-| `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.                       |
-| `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.                       |
-> Reactions can be clicked to get a more detailed response.
+| `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message.[^1]                   |
+| `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.[^1]                   |
+| `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.[^1]                   |
+> [^1]Reactions can be clicked to get a more detailed response.
 
 #### Permission Requirements
 | Operation                                                              | Required permissions    |

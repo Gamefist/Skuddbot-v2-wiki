@@ -45,9 +45,10 @@ The `WELCOME_MESSAGE` and `GOODBYE_MESSAGE` settings control the message format 
 `WELCOME_GOODBYE_CHANNEL` takes a ID of a channel for these messages to be posted in, this setting must be set in order for the welcome and goodbye messages to work.
 
 #### Channel does not exist error
-Server owners can receive a DM from Skuddbot about that the bot tried to send a welcome/goodbye message to a channel that does not exist. When this error is encountered, the bot will automatically set the `WELCOME_GOODBYE_CHANNEL` value to `-1` (disabled). To reactivate the owner must set the `WELCOME_GOODBYE_CHANNEL` setting back to a channel ID that does exist.  
+Server owners can receive a DM from Skuddbot about that the bot tried to send a welcome/goodbye message to a channel that does not exist. When this error is encountered, the bot will automatically set the `WELCOME_GOODBYE_CHANNEL` value to `-1` (disabled). To reactivate, a user with the `SERVER_ADMIN` permission, must set the `WELCOME_GOODBYE_CHANNEL` setting back to a channel ID that does exist.  
 {% hint style="info" %}
-For more information about getting ID's of things in discord, please view [Turning on developer mode](/getting-started.md#turning-on-developer-mode) in the [Getting started](/getting-started.md) article.
+* For more information about getting ID's of things in Discord, please view [Turning on developer mode](/getting-started.md#turning-on-developer-mode) in the [Getting started](/getting-started.md) article.  
+* For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
 {% endhint %}
 
 ### Granting a role on join

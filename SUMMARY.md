@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Skuddbot v2 Wiki](README.md)
-* [Getting started](before-you-begin-using-skuddbot.md)
-* [Permissions](permissions.md)
+* [Getting started](getting-started.md)
+* Systems
+    * [Permissions](Systems/permissions.md)
 * Features
     * [Currencies](Features/currencies.md)
     * [User Settings](Features/user-settings.md)

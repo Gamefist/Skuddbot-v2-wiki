@@ -43,7 +43,7 @@ This command also listens to the following aliasses:
 | Viewing someone else's currencies.                                     | No permissions required |
 | Viewing someone else's currencies, who has made their profile private. | Server Admin            |
 | Editing your own, or someone else's currencies.                        | Server Admin            |
-> For more information on permissions, view the [Permissions](../permissions.md) article.  
+> For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
 > For more information about making your profile private, view the [profile private setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
 
 

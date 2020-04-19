@@ -2,6 +2,7 @@
 
 * [Skuddbot v2 Wiki](README.md)
 * [Getting started](before-you-begin-using-skuddbot.md)
+* [Permissions](permissions.md)
 * Features
     * [Currencies](Features/currencies.md)
     * [User Settings](Features/user-settings.md)

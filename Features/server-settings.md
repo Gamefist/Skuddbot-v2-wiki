@@ -15,7 +15,7 @@ Skuddbot featurs an server settings. This allows server owners to change parts o
 | [Welcome message](#welcome-and-goodbye-messages)                      | `WELCOME_MESSAGE`         | Defines the message that will be posted when a user joins the server.              | String                    | null          |
 | [Goodbye message](#welcome-and-goodbye-messages)                      | `GOODBYE_MESSAGE`         | Defines the message that will be posted when a user leaves the server.             | String                    | null          |
 | [Welcome and goodbye messages channel](#welcome-and-goodbye-messages) | `WELCOME_GOODBYE_CHANNEL` | Defines the channel where the welcome and goodbye messages will be posted.         | Number (of: channel ID)   | -1            |
-| [Grant role on join](#granting-role-on-join)                          | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null          |
+| [Grant role on join](#granting-a-role-on-join)                        | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null          |
 
 ## Setting details
 ### Experience settings
@@ -43,12 +43,16 @@ The `WELCOME_MESSAGE` and `GOODBYE_MESSAGE` settings control the message format 
 * `$server` - Will be replaced by the name of the server that is joined/left.
 
 `WELCOME_GOODBYE_CHANNEL` takes a ID of a channel for these messages to be posted in, this setting must be set in order for the welcome and goodbye messages to work.
+
+#### Channel does not exist error
+Server owners can receive a DM from Skuddbot about that the bot tried to send a welcome/goodbye message to a channel that does not exist. When this error is encountered, the bot will automatically set the `WELCOME_GOODBYE_CHANNEL` value to `-1` (disabled). To reactivate the owner must set the `WELCOME_GOODBYE_CHANNEL` setting back to a channel ID that does exist.  
 {% hint style="info" %}
 For more information about getting ID's of things in discord, please view [Turning on developer mode](/getting-started.md#turning-on-developer-mode) in the [Getting started](/getting-started.md) article.
 {% endhint %}
 
-### Granting role on join
-The `ROLE_ON_JOIN` setting takes the name of a role, this role will then be given to users when they join the server.
+### Granting a role on join
+The `ROLE_ON_JOIN` setting takes the name of a role, this role will be given to users when they join the server.
+Setting this setting to `null`, disables it.
 {% hint style="danger" %}
 * Make sure the role name is typed exactly as it is set in Discord. This setting is case sensitive.
 * Make sure the role you are trying to give is below the highest role Skuddbot has in the hierarchy.

@@ -4,13 +4,13 @@
 Skuddbot features a currency system, with support for multiple currencies. Currencies can be spent, gained or lost by users.
 At the moment we have only one, but there are definetly more to come! 
 
-## Available Currencies
+## Available currencies
 | Currency name | Technical Name | Used for              | Leaderboard? | Editable? |
 |---------------|----------------|-----------------------|--------------|-----------|
 | Skuddbux      | `SKUDDBUX`     | Betting in minigames. | Yes          | Yes       |
 ## Commmands
 ### View and edit
-The command for viewing and editing an users currencies is `!currency`.
+The command for viewing and editing an users currencies is `!currency`.   
 This command also listens to the following aliasses:
 - `!currencies`
 - `!wallet`
@@ -44,7 +44,7 @@ This command also listens to the following aliasses:
 | Viewing someone else's currencies, who has made their profile private. | Server Admin            |
 | Editing your own, or someone else's currencies.                        | Server Admin            |
 > For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
-> For more information about making your profile private, view the [profile private setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
+> For more information about making your profile private, view the [profile private user setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
 
 
 

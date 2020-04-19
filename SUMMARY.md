@@ -4,6 +4,7 @@
 * [Getting started](getting-started.md)
 * Systems
     * [Permissions](Systems/permissions.md)
+    * [Experience](Systems.md/experience)
 * Commands
     * [User info command](Commands/user-info-command.md)
     * [Useless Commands](Commands/useless-commands.md)

@@ -23,8 +23,8 @@ Level up notification defines how a user is notified about a level up, this sett
 | `DM`       | You are notified in DM's about a level up.     |
 | `NONE`     | You are not notified about level ups.          |
 {% hint style="info" %}
-Reactions can be clicked to view a detailed message.  
-Server owners can disable the `MESSAGE` notification setting, for more information about the [allow message level up notification server setting] view the [Server Settings](server-settings.md) article.
+* Reactions can be clicked to view a detailed message.  
+* Server owners can disable the `MESSAGE` notification setting, for more information about the [allow message level up notification server setting](/Features/server-settings.md#allow-message-level-up-notification-type) view the [Server Settings](server-settings.md) article.
 {% endhint %}
 
 ### Tracking enabled

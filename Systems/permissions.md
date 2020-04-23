@@ -12,8 +12,8 @@ Skuddbot features a simple permission system. This is used for checking what use
 | Bot admin    | `BOT_ADMIN`    | Users that have been added to bot admin list.                                                 | Yes                |
 | Timmy        | `TIMMY`        | Only to user Cooltimmetje#0001.                                                               | Yes                |
 {% hint style="info" %}
-For more information about the [admin role setting](/Features/server-settings.md), view the [Server Settings](/Features/server-settings.md) article.  
-For more information about what these permissions grant access to, please refer to the respective article of what you are trying to access.
+* For more information about the [admin role setting](/Features/server-settings.md#granting-admin-permissions), view the [Server Settings](/Features/server-settings.md) article.  
+* For more information about what these permissions grant access to, please refer to the respective article of what you are trying to access.
 {% endhint %}
 
 ## Global permissions and Local permissions

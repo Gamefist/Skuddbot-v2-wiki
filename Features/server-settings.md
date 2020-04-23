@@ -3,20 +3,24 @@
 Skuddbot features an server settings. This allows server owners to change parts of Skuddbot to their liking and tailor their own Skuddbot experience for their server. 
 
 ## Available settings
-| Setting name                                                          | Technical name            | Short description                                                                  | Value type                | Default value |
-|-----------------------------------------------------------------------|---------------------------|------------------------------------------------------------------------------------|---------------------------|---------------|
-| [Minimun experience gained](#gaining-experience)                      | `XP_MIN`                  | Defines the minimum amount of experience gained per message.                       | Number                    | 10            |
-| [Maximum experience gained](#gaining-experience)                      | `XP_MAX`                  | Defines the maximum amount of experience gained per message.                       | Number                    | 15            |
-| [~~Minimun experience gained on twitch~~](#gaining-experience)        | `XP_MIN_TWITCH`           | Defines the minimum amount of experience gained per message on Twitch.             | Number                    | 10            |
-| [~~Maximum experience gained on twitch~~](#gaining-experience)        | `XP_MAX_TWITCH`           | Defines the maximum amount of experience gained per message on Twitch.             | Number                    | 15            |
-| [Experience base value](#leveling-curve)                              | `XP_BASE`                 | Defines how much experience an user needs to level up from level one to level two. | Number                    | 1500          |
-| [Experience multiplier](#leveling-curve)                              | `XP_MULTIPLIER`           | Defines how steep the experience leveling curve is.                                | Number with decimal place | 1.2           |
-| [~~Twitch channel~~](#twitch-channel)                                 | `TWITCH_CHANNEL`          | Defines what Twitch channel the bot is in.                                         | String                    | null          |
-| [Welcome message](#welcome-and-goodbye-messages)                      | `WELCOME_MESSAGE`         | Defines the message that will be posted when a user joins the server.              | String                    | null          |
-| [Goodbye message](#welcome-and-goodbye-messages)                      | `GOODBYE_MESSAGE`         | Defines the message that will be posted when a user leaves the server.             | String                    | null          |
-| [Welcome and goodbye messages channel](#welcome-and-goodbye-messages) | `WELCOME_GOODBYE_CHANNEL` | Defines the channel where the welcome and goodbye messages will be posted.         | Number (of: channel ID)   | -1            |
-| [Admin role](#granting-admin-permissions)                             | `ADMIN_ROLE`              | Defines which role should be given server admin permissions in the bot.            | String (of: role name)    | nulll         |
-| [Grant role on join](#granting-a-role-on-join)                        | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null          |
+| Setting name                                                                              | Technical name            | Short description                                                                  | Value type                | Default value        |
+|-------------------------------------------------------------------------------------------|---------------------------|------------------------------------------------------------------------------------|---------------------------|----------------------|
+| [Minimun experience gained](#gaining-experience)                                          | `XP_MIN`                  | Defines the minimum amount of experience gained per message.                       | Number                    | 10                   |
+| [Maximum experience gained](#gaining-experience)                                          | `XP_MAX`                  | Defines the maximum amount of experience gained per message.                       | Number                    | 15                   |
+| [~~Minimun experience gained on twitch~~](#gaining-experience)                            | `XP_MIN_TWITCH`           | Defines the minimum amount of experience gained per message on Twitch.             | Number                    | 10                   |
+| [~~Maximum experience gained on twitch~~](#gaining-experience)                            | `XP_MAX_TWITCH`           | Defines the maximum amount of experience gained per message on Twitch.             | Number                    | 15                   |
+| [Experience base value](#leveling-curve)                                                  | `XP_BASE`                 | Defines how much experience an user needs to level up from level one to level two. | Number                    | 1500                 |
+| [Experience multiplier](#leveling-curve)                                                  | `XP_MULTIPLIER`           | Defines how steep the experience leveling curve is.                                | Number with decimal place | 1.2                  |
+| [~~Twitch channel~~](#twitch-channel)                                                     | `TWITCH_CHANNEL`          | Defines what Twitch channel the bot is in.                                         | String                    | null                 |
+| [Welcome message](#welcome-and-goodbye-messages)                                          | `WELCOME_MESSAGE`         | Defines the message that will be posted when a user joins the server.              | String                    | null                 |
+| [Goodbye message](#welcome-and-goodbye-messages)                                          | `GOODBYE_MESSAGE`         | Defines the message that will be posted when a user leaves the server.             | String                    | null                 |
+| [Welcome and goodbye messages channel](#welcome-and-goodbye-messages)                     | `WELCOME_GOODBYE_CHANNEL` | Defines the channel where the welcome and goodbye messages will be posted.         | Number (of: channel ID)   | -1                   |
+| [Admin role](#granting-admin-permissions)                                                 | `ADMIN_ROLE`              | Defines which role should be given server admin permissions in the bot.            | String (of: role name)    | nulll                |
+| [Grant role on join](#granting-a-role-on-join)                                            | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null                 |
+| [Allow message level up notification type](#allow-message-level-up-notification-type)     | `ALLOW_MSG_LVL_UP_NOTIFY` | Defines if the message level up notification type is allowed.                      | Boolean                   | true                 |
+| [Arena name](#arena-name)                                                                 | `ARENA-NAME`              | Defines the name of the arena mentioned in various minigames.                      | String                    | Skuddbot's Colosseum |
+| [Command prefix](#command-prefix)                                                         | `COMMAND_PREFIX`          | Defines the prefix for commands.                                                   | String                    | !                    |
+| [Allowing multiple images in image commands](#allowing-multiple-images-in-image-commands) | `ALLOW_MULTI_IMG`         | Defines if using a image command may display multiple images.                      | boolean                   | false                |
 
 ## Setting details
 ### Experience settings
@@ -55,7 +59,7 @@ Server owners can receive a DM from Skuddbot about that the bot tried to send a 
 ### Granting admin permissions
 The `ADMIN_ROLE` setting takes a name of a role,  people that have this role will be granted the `SERVER_ADMIN` permission.
 {% hint style="success" %}
-It's good practice to make a seperate role, with no permission nodes enabled within Discord. Then set the setting to the name of this role. This way you have more fine control over who has admin permission within Skuddbot.
+It's good practice to make a separate role, with no permission nodes enabled within Discord. Then set the setting to the name of this role. This way you have more fine control over who has admin permission within Skuddbot, by simply assigning the role to people you want to have this permission level.
 {% endhint %}
 {% hint style="info" %}
 For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
@@ -72,6 +76,28 @@ Setting this setting to `null` disables it.
 * Make sure the role you are trying to give is below the highest role Skuddbot has in the hierarchy.
 {% endhint %}
 
-### 
+### Allow message level up notification type
+This setting allows or disallows the use of the `MESSAGE` level up notification type. When set to `false`, any user that has set it's notification setting set to `MESSAGE` will be defaulted to `REACTION`.
+{% hint style="info" %}
+For more information about the [Level up notification user setting](user-settings.md#level-up-notification), view the [User settings](user-settings.md) article.
+{% endhint %}
 
+### Arena name
+The `ARENA_NAME` setting defines the name of the arena that will be mentioned in various minigames.
+Currently this setting applies to the following minigames:
+* [Challenge](/Minigames/challenge.md)
 
+### Command prefix
+This setting can be used to change the prefix of the commands that the bot listens to, this can be useful to prevent it conflicting with other bots.
+Prefixes also support spaces, please use `_` (underscores) to denote spaces while setting this setting. If you set the prefix to `skuddbot_`, the bot will listen to commands that look like `skuddbot ping`.
+{% hint style="warning" %}
+* Sometimes the bot might still show the default prefix when showing commands in Discord, if this happens, please [contact me](/Help/contact.md) to get this updated.
+* Commands on this wiki will always show `!` as their prefix.
+{% endhint %}
+
+### Allowing multiple images in image commands
+This setting defines if users are allowed to request multiple images from the image commands at once. When set to `true`, this will allow users to request up to a maximum of 5 images per command. When set to `false` a user may still specify a number, but it will be defaulted to 1.
+{% hint style="info" %}
+* Due to the recent COVID-19 (the new Coronavirus) outbreak, the default value of this setting has been temporarily set to `true`. If you don't like this behavior, you can still set it back to `false` whenever you like.
+* For more information about image commands, please refer to the [Image commands](/Commands/image-commands.md) article.
+{% endhint %}

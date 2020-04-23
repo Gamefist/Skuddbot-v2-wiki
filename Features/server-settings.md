@@ -1,6 +1,6 @@
 # Server settings
 ## Introduction
-Skuddbot featurs an server settings. This allows server owners to change parts of Skuddbot to their liking and tailor their own Skuddbot experience for their server. 
+Skuddbot features an server settings. This allows server owners to change parts of Skuddbot to their liking and tailor their own Skuddbot experience for their server. 
 
 ## Available settings
 | Setting name                                                          | Technical name            | Short description                                                                  | Value type                | Default value |
@@ -15,6 +15,7 @@ Skuddbot featurs an server settings. This allows server owners to change parts o
 | [Welcome message](#welcome-and-goodbye-messages)                      | `WELCOME_MESSAGE`         | Defines the message that will be posted when a user joins the server.              | String                    | null          |
 | [Goodbye message](#welcome-and-goodbye-messages)                      | `GOODBYE_MESSAGE`         | Defines the message that will be posted when a user leaves the server.             | String                    | null          |
 | [Welcome and goodbye messages channel](#welcome-and-goodbye-messages) | `WELCOME_GOODBYE_CHANNEL` | Defines the channel where the welcome and goodbye messages will be posted.         | Number (of: channel ID)   | -1            |
+| [Admin role](#granting-admin-permissions)                             | `ADMIN_ROLE`              | Defines which role should be given server admin permissions in the bot.            | String (of: role name)    | nulll         |
 | [Grant role on join](#granting-a-role-on-join)                        | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null          |
 
 ## Setting details
@@ -51,12 +52,26 @@ Server owners can receive a DM from Skuddbot about that the bot tried to send a 
 * For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
 {% endhint %}
 
+### Granting admin permissions
+The `ADMIN_ROLE` setting takes a name of a role,  people that have this role will be granted the `SERVER_ADMIN` permission.
+{% hint style="success" %}
+It's good practice to make a seperate role, with no permission nodes enabled within Discord. Then set the setting to the name of this role. This way you have more fine control over who has admin permission within Skuddbot.
+{% endhint %}
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
+{% endhint %}
+{% hint style="danger" %}
+Make sure the role name is typed exactly as it is set in Discord. This setting is case sensitive.
+{% endhint %}
+
 ### Granting a role on join
 The `ROLE_ON_JOIN` setting takes the name of a role, this role will be given to users when they join the server.
-Setting this setting to `null`, disables it.
+Setting this setting to `null` disables it.
 {% hint style="danger" %}
 * Make sure the role name is typed exactly as it is set in Discord. This setting is case sensitive.
 * Make sure the role you are trying to give is below the highest role Skuddbot has in the hierarchy.
 {% endhint %}
+
+### 
 
 

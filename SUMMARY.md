@@ -11,6 +11,7 @@
     * [Server settings](Features/server-settings.md)
     * [User settings](Features/user-settings.md)
 * Minigames
+    * [Blackjack](/Minigames/blackjack.md)
     * [Challenge](challenge.md)
 * Systems
     * [Experience](Systems.md/experience)

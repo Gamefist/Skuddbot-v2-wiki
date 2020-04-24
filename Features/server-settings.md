@@ -18,7 +18,7 @@ Skuddbot features an server settings. This allows server owners to change parts 
 | [Admin role](#granting-admin-permissions)                                                 | `ADMIN_ROLE`              | Defines which role should be given server admin permissions in the bot.            | String (of: role name)    | nulll                |
 | [Grant role on join](#granting-a-role-on-join)                                            | `ROLE_ON_JOIN`            | Defines what role will be given to users that join the server.                     | String (of: role name)    | null                 |
 | [Allow message level up notification type](#allow-message-level-up-notification-type)     | `ALLOW_MSG_LVL_UP_NOTIFY` | Defines if the message level up notification type is allowed.                      | Boolean                   | true                 |
-| [Arena name](#arena-name)                                                                 | `ARENA-NAME`              | Defines the name of the arena mentioned in various minigames.                      | String                    | Skuddbot's Colosseum |
+| [Arena name](#arena-name)                                                                 | `ARENA_NAME`              | Defines the name of the arena mentioned in various minigames.                      | String                    | Skuddbot's Colosseum |
 | [Command prefix](#command-prefix)                                                         | `COMMAND_PREFIX`          | Defines the prefix for commands.                                                   | String                    | !                    |
 | [Allowing multiple images in image commands](#allowing-multiple-images-in-image-commands) | `ALLOW_MULTI_IMG`         | Defines if using a image command may display multiple images.                      | boolean                   | false                |
 
@@ -100,4 +100,31 @@ This setting defines if users are allowed to request multiple images from the im
 {% hint style="info" %}
 * Due to the recent COVID-19 (the new Coronavirus) outbreak, the default value of this setting has been temporarily set to `true`. If you don't like this behavior, you can still set it back to `false` whenever you like.
 * For more information about image commands, please refer to the [Image commands](/Commands/image-commands.md) article.
+{% endhint %}
+
+## Command
+The command for viewing and editing server settings is: `!serversettings`.   
+This command also listens to the following aliases: 
+- `!ssettings`
+
+#### Command parameters
+| Parameter | Type   | Description                                       | Required? |
+|-----------|--------|---------------------------------------------------|-----------|
+| Setting   | String | This defines the setting you want to view/edit.   | No        |
+| Value     | Any    | This is the new value the setting will be set to. | No        |
+
+#### Command examples
+| Example                               | Action                                                        | Response                                                         |
+|---------------------------------------|---------------------------------------------------------------|------------------------------------------------------------------|
+| `!serversettings`                     | Simplest form, shows all settings and their current value.    | A table with all settings and their current value.               |
+| `!serversettings ROLE_ON_JOIN`        | Views more detailed information about `ROLE_ON_JOIN` setting. | A list of detailed infromation about the `ROLE_ON_JOIN` setting. |
+| `!serversettings ROLE_ON_JOIN Member` | Updates the setting `ROLE_ON_JOIN` to `Member`.               | ✅ reaction to the message.                                       |
+{% hint style="info" %}
+Reactions can be clicked to get a more detailed response.
+{% endhint %}
+
+#### Permission requirements
+This command requires the `SERVER_ADMIN` permission.
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
 {% endhint %}

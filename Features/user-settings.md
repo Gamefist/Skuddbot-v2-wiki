@@ -48,8 +48,8 @@ This setting is still under development and not in use yet.
 {% endhint %}
 
 ## Command
-The command for viewing and editing your settings is: `!usersettings`.   
-This command also listens to the following aliasses: 
+The command for viewing and editing user settings is: `!usersettings`.   
+This command also listens to the following aliases: 
 - `!usettings`
 
 #### Command parameters
@@ -59,11 +59,11 @@ This command also listens to the following aliasses:
 | Value     | Any    | This is the new value the setting will be set to. | No        |
 
 #### Command examples
-| Example                         | Action                                                     | Response                                                     |
-|---------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
-| `!usersettings`                 | Simplest form, shows all settings and their current value. | A table with all settings and their current value.           |
-| `!usersettings MENTION_ME`      | Views more detailed information about MENTION_ME setting.  | A list of detailed infromation about the MENTION_ME setting. |
-| `!usersettings MENTION_ME true` | Updates the setting MENTION_ME to true.                    | ✅ reaction to the message.                                   |
+| Example                         | Action                                                      | Response                                                       |
+|---------------------------------|-------------------------------------------------------------|----------------------------------------------------------------|
+| `!usersettings`                 | Simplest form, shows all settings and their current value.  | A table with all settings and their current value.             |
+| `!usersettings MENTION_ME`      | Views more detailed information about `MENTION_ME` setting. | A list of detailed infromation about the `MENTION_ME` setting. |
+| `!usersettings MENTION_ME true` | Updates the setting `MENTION_ME` to `true`.                 | ✅ reaction to the message.                                     |
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}

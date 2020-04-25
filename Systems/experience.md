@@ -16,3 +16,8 @@ For more information about [controlling experience gain](/Features/server-settin
 {% endhint %}
 
 ## Leveling up
+{% hint style="danger" %}
+**WARNING:** Heavy math ahead.
+{% endhint %}
+Skuddbot calculates levels using the `XP_BASE` and `XP_MULTIPLIER` settings. The `XP_BASE` setting defines how much experience a user needs to level up from level 1 to level 2. The `XP_MULTIPLIER` setting defines how quickly the amount of experience rises per level. Skuddbot uses the following formula to calculate the experience required to level up:
+![](https://i.imgur.com/NuDiaX7.png)

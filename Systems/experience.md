@@ -35,12 +35,12 @@ The command for viewing an user's level information is: `!experience`.
 This command also listens to the following aliases:
 * `!xp`
 
-### Command parameters
+#### Command parameters
 | Parameter         | Type             | Description                                                       | Required? |
 |-------------------|------------------|-------------------------------------------------------------------|-----------|
 | User ID / Mention | Number / Mention | Specifies the user to view, defaults to user running the command. | No        |
 
-### Command examples
+#### Command examples
 | Example                          | Action                                                     | Response                                                            |
 |----------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|
 | `!experience`                    | Simplest form, shows the user's own level information.     | A message with the user's own level information.                    |
@@ -51,7 +51,7 @@ This command also listens to the following aliases:
 * Experience can be edited using the [Stats command](/Features/stats.md).
 {% endhint %}
 
-### Permission requirements
+#### Permission requirements
 | Action                                                                        | Required permission     |
 |-------------------------------------------------------------------------------|-------------------------|
 | Viewing the user's own level information.                                     | No permissions required |

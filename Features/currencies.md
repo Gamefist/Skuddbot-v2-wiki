@@ -29,13 +29,14 @@ This command also listens to the following aliasses:
 | Amount             | Number           | This parameter specifies with what amount you want to carry out the specified operation.                                                                                                | When editing |
 
 #### Command examples
-| Example                                           | Action                                                          | Response                                         |
-|---------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------|
-| `!currency`                                       | Simplest form, shows the user's own currencies.                 | Embed with the user's own currencies.            |
-| `!currency @MyNameIsDave#0001`                    | Shows the currencies of user MyNameIsDave#0001.                 | Embed with currencies of user MyNameIsDave#0001. |
-| `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message                        |
-| `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.                       |
-| `!currency @MyNameIsDave#0001 SKUDDBUX set 10`    | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.                       |
+| Example                                        | Action                                                          | Response                                             |
+|------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------|
+| `!currency`                                    | Simplest form, shows the user's own currencies.                 | Embed with the user's own currencies.                |
+| `!currency @MyNameIsDave#0001`                 | Shows the currencies of user MyNameIsDave#0001.                 | Embed with currencies of user MyNameIsDave#0001.     |
+| `!currency 01234`                              | Shows the currencies of the user with ID 01234.                 | Embed with the currencies of the user with ID 01234. |
+| `!currency @MyNameIsDave#0001 SKUDDBUX add 10` | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message                            |
+| `!currency 01234 SKUDDBUX remove 10`           | Removes 10 from the SKUDDBUX balance of the user with id 01234. | ✅ reaction to the message.                           |
+| `!currency @MyNameIsDave#0001 SKUDDBUX set 10` | Sets the SKUDDBUX balance of user MyNameIsDave#0001 to 10.      | ✅ reaction to the message.                           |
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}
@@ -53,8 +54,28 @@ Reactions can be clicked to get a more detailed response.
 {% endhint %}
 
 
+### Currency leaderboards
+The command for viewing currency leaderboards is: `!currencyleaderboard`.
+This command also listens to the following aliases:
+- `!clb`
+- `!currencylb`
 
+#### Command parameter
+| Parameter       | Type   | Description                                                                                                                        | Required? |
+|-----------------|--------|------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Currency / List | String | This parameter takes a technical name of a currency. Defaults to `SKUDDBUX`. - Can also be `list` to list all avaiable currencies. | No        |
 
+#### Command examples
+| Example                         | Action                                                  | Response                                 |
+|---------------------------------|---------------------------------------------------------|------------------------------------------|
+| `!currencyleaderboard`          | Simplest form, shows the Skuddbux currency leaderboard. | A message with the Skuddbux leaderboard. |
+| `!currencyleaderboard SKUDDBUX` | Shows the Skuddbux currency leaderboard.                | A message with the Skuddbux leaderboard. |
+| `!currencyleaderboard list`     | Lists the available currencies.                         | A message with the available currencies. |
 
+#### Command permissions
+This command requires no permissions.
+{% hint style="info" %}
+For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
+{% endhint %}
 
 

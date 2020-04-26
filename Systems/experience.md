@@ -21,11 +21,14 @@ For more information about [controlling experience gain](/Features/server-settin
 {% endhint %}
 Skuddbot calculates levels using the `XP_BASE` and `XP_MULTIPLIER` settings. The `XP_BASE` setting defines how much experience a user needs to level up from level 1 to level 2. The `XP_MULTIPLIER` setting defines how quickly the amount of experience rises per level. Skuddbot uses the following formula to calculate the experience required to level up:
 ![](https://i.imgur.com/NuDiaX7.png)
+{% hint style="info" %}
+For more information about [controlling the leveling curve](/Features/server-settings.md#leveling-curve), view the [Server settings](/Features/server-settings.md) article.
+{% endhint %}
 
 ### Calculating an user's level
-An users level is calculated with the following steps:
-1. Starting at level 1, subtract the experience required to level up from the user's experience amount. Keep repeating, while incrementing the level, until there's less experience left than is required to level up.
-2. Divide the experience left by the amount required to level up, and multiply by 100. This is the user's level progress.
+An users level is calculated with the following steps:  
+1. Starting at level 1, subtract the experience required to level up from the user's experience amount. Keep repeating, while incrementing the level, until there's less experience left than is required to level up.  
+2. Divide the experience left by the amount required to level up, and multiply by 100. This is the user's level progress.  
 
 ## Viewing an user's level
 The command for viewing an user's level information is: `!experience`.

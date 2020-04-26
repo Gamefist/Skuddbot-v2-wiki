@@ -31,7 +31,7 @@ This command also listens to the following aliasses:
 #### Command examples
 | Example                                           | Action                                                          | Response                                         |
 |---------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------|
-| `!currency`                                       | Simplest form, shows your own currencies.                       | Embed with your currencies.                      |
+| `!currency`                                       | Simplest form, shows the user's own currencies.                 | Embed with the user's own currencies.            |
 | `!currency @MyNameIsDave#0001`                    | Shows the currencies of user MyNameIsDave#0001.                 | Embed with currencies of user MyNameIsDave#0001. |
 | `!currency @MyNameIsDave#0001 SKUDDBUX add 10`    | Adds 10 to the SKUDDBUX balance of user MyNameIsDave#0001.      | ✅ reaction to the message                        |
 | `!currency @MyNameIsDave#0001 SKUDDBUX remove 10` | Removes 10 from the SKUDDBUX balance of user MyNameIsDave#0001. | ✅ reaction to the message.                       |
@@ -43,13 +43,13 @@ Reactions can be clicked to get a more detailed response.
 #### Permission requirements
 | Operation                                                              | Required permissions    |
 |------------------------------------------------------------------------|-------------------------|
-| Viewing your own currencies.                                           | No permissions required |
+| Viewing the user's own currencies.                                     | No permissions required |
 | Viewing someone else's currencies.                                     | No permissions required |
 | Viewing someone else's currencies, who has made their profile private. | Server Admin            |
 | Editing your own, or someone else's currencies.                        | Server Admin            |
 {% hint style="info" %}
-For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
-For more information about making your profile private, view the [profile private user setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
+* For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
+* For more information about making your profile private, view the [profile private user setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
 {% endhint %}
 
 

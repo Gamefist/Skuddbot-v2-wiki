@@ -9,6 +9,7 @@
 * Features
     * [Currencies](/Features/currencies.md)
     * [Server settings](/Features/server-settings.md)
+    * [Stats](/Features/stats.md)
     * [User settings](/Features/user-settings.md)
 * Minigames
     * [Blackjack](/Minigames/blackjack.md)

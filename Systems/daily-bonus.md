@@ -8,12 +8,23 @@ This command also listens to he following aliases:
 * `!claim`
 * `!db`
 
-## Bonus scaling
+## Bonus amount
+### Bonus scaling
 The bonuses scale exponentially. If a user can build up a streak of claiming their bonus every day, they will gain more rewards over time.
 There is a system to cap the scaling at a certain day. When the cap is reached, a user can still claim their bonus every day, but the amount won't grow anymore. The user is however still allowed to grow their streak, and this is also recorded in the stats.
 
 The bonus amount is calculated using the following formula:
 ![](https://i.imgur.com/ZRjexJ3.png)
+
+### Controlling bonus amounts
+Server owners can control the amounts of bonuses their users can claim every day. The following things can be customized with the `!serversettings` command:
+* Currency base amount
+* Experience base amount
+* Bonus multiplier
+* Bonus multiplier cap
+{% hint style="info" %}
+For more infomation about [controlling bonus amounts](/Features/server-settings.md#daily-bonus), view the [Server settings](/Features/server-settings.md) article.
+{% endhint %}
 
 ## Timer reset
 A user can claim their bonus once a day. However the system does not make use of a 24 hour timer, but all users will be reset at once. The timer resets at 12AM UTC.

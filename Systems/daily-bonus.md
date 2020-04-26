@@ -13,7 +13,7 @@ This command also listens to he following aliases:
 The bonuses scale exponentially. If a user can build up a streak of claiming their bonus every day, they will gain more rewards over time.
 There is a system to cap the scaling at a certain day. When the cap is reached, a user can still claim their bonus every day, but the amount won't grow anymore. The user is however still allowed to grow their streak, and this is also recorded in the stats.
 
-The bonus amount is calculated using the following formula:
+The bonus amount is calculated using the following formula:  
 ![](https://i.imgur.com/ZRjexJ3.png)
 
 ### Controlling bonus amounts

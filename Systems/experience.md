@@ -15,11 +15,17 @@ A user will gain a random amount of experience between a set minimum and maximum
 For more information about [controlling experience gain](/Features/server-settings.md#gaining-experience), view the [Server settings](/Features/server-settings.md) article.
 {% endhint %}
 
+### Claiming daily bonus
+A user can get a bonus amount of experience every day by claiming their daily bonus!
+{% hint style="info" %}
+For more information about daily bonuses, view the [Daily bonus](/Systems/daily-bonus.md) article.
+{% endhint %}
+
 ## Leveling up
 {% hint style="danger" %}
 **WARNING:** Heavy math ahead.
 {% endhint %}
-Skuddbot calculates levels using the `XP_BASE` and `XP_MULTIPLIER` settings. The `XP_BASE` setting defines how much experience a user needs to level up from level 1 to level 2. The `XP_MULTIPLIER` setting defines how quickly the amount of experience rises per level. Skuddbot uses the following formula to calculate the experience required to level up:
+Levels in Skuddbot scale exponentially. Skuddbot calculates levels using the `XP_BASE` and `XP_MULTIPLIER` settings. The `XP_BASE` setting defines how much experience a user needs to level up from level 1 to level 2. The `XP_MULTIPLIER` setting defines how quickly the amount of experience rises per level. Skuddbot uses the following formula to calculate the experience required to level up:
 ![](https://i.imgur.com/NuDiaX7.png)
 {% hint style="info" %}
 For more information about [controlling the leveling curve](/Features/server-settings.md#leveling-curve), view the [Server settings](/Features/server-settings.md) article.

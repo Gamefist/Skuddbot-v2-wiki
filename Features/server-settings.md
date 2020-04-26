@@ -21,6 +21,10 @@ Skuddbot features an server settings. This allows server owners to change parts 
 | [Arena name](#arena-name)                                                                 | `ARENA_NAME`              | Defines the name of the arena mentioned in various minigames.                      | String                    | Skuddbot's Colosseum |
 | [Command prefix](#command-prefix)                                                         | `COMMAND_PREFIX`          | Defines the prefix for commands.                                                   | String                    | !                    |
 | [Allowing multiple images in image commands](#allowing-multiple-images-in-image-commands) | `ALLOW_MULTI_IMG`         | Defines if using a image command may display multiple images.                      | boolean                   | false                |
+| [Daily currency bonus](#daily-bonuses)                                                    | `DAILY_CURRENCY_BONUS`    | Defines the base amount of the daily currency bonus.                               | Number                    | 100                  |
+| [Daily experience bonus](#daily-bonus)                                                    | `DAILY_EXPERIENCE_BONUS`  | Defines the base amount of the daily experience bonus.                             | Number                    | 250                  |
+| [Daily bonus multiplier](#daily-bonus)                                                    | `DAILY_BONUS_MULTIPLIER`  | Defines the mulitplier of the daily bonus amounts.                                 | Number with decimal place | 1.05                 |
+| [Daily bonus cap](#daily-bonus)                                                           | `DAILY_BONUS_CAP`         | Defines after how many days the multiplier will cap out.                           | Number                    | 30                   |
 
 ## Setting details
 ### Experience settings
@@ -100,6 +104,12 @@ This setting defines if users are allowed to request multiple images from the im
 {% hint style="info" %}
 * Due to the recent COVID-19 (the new Coronavirus) outbreak, the default value of this setting has been temporarily set to `true`. If you don't like this behavior, you can still set it back to `false` whenever you like.
 * For more information about image commands, please refer to the [Image commands](/Commands/image-commands.md) article.
+{% endhint %}
+
+### Daily bonuses
+The daily bonus settings define how much bonuses each user can claim each day. Bonuses scale exponentially based on how many days a user claims their bonus in a row.
+{% hint style="info" %}
+For more information about daily bonuses, check the [Daily bonus](/Systems/daily-bonus.md) article.
 {% endhint %}
 
 ## Command

@@ -9,6 +9,10 @@ At the moment we have only one, but there are definetly more to come!
 |---------------|----------------|-----------------------|--------------|-----------|
 | Skuddbux      | `SKUDDBUX`     | Betting in minigames. | Yes          | Yes       |
 
+## Earning currencies
+Currently users can earn currency in the following ways:
+* [Claiming their daily bonus](/Systems/daily-bonus.md).
+
 ## Commmands
 ### View and edit
 The command for viewing and editing an users currencies is `!currency`.   

@@ -10,7 +10,7 @@ More detailed information about the command can be found in the [command](#comma
 {% endhint %}
 
 When a game is started a user is presented with the following message:  
-![]()
+![](https://i.imgur.com/7nU06AJ.png)
 The user can now choose to double up or to take the money, using the reactions.
 
 ### Doubling up

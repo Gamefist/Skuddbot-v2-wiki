@@ -1,0 +1,66 @@
+# Double or Nothing
+## Introduction
+Double or Nothing is a minigame where users can bet their Skuddbux, and continuously double it or choose to bank the money. When a user chooses to double, there's a 50% chance it will double, if it doesn't double, the user looses everything.
+
+## Game flow
+### Starting a game
+A game of Double or Nothing can be started using the command `!doubleornothing`.
+{% hint style="info" %}
+More detailed information about the command can be found in the [command](#command) section.
+{% endhint %}
+
+When a game is started a user is presented with the following message:  
+![]()
+The user can now choose to double up or to take the money, using the reactions.
+
+### Doubling up
+A user can choose to double up by clicking the ![](https://i.imgur.com/oE4pdbJ.png) reaction.
+When the user chooses to double up, there's a 50% chance of either of two outcomes:
+
+#### Double
+The bet gets doubled and the user is presented with the choice do double up again, or to take the money.
+
+#### Nothing
+The user loses everything, and the game ends.
+
+### Taking the money
+A user can choose to take the money by clicking the ![](https://i.imgur.com/LqZbyj6.png) reaction.
+When a user to chooses to take the money, the game will end and the standing amount will get added to the user's Skuddbux balance.
+{% info style="warning" %}
+When choosing to take the money without doubling up before, no stats will be awarded and the bet amount will be refunded.
+{% endhint %}
+
+## Stats
+| Stat           | Technical name       | Tracks                                                                                                    | Awarded                                                                |
+|----------------|----------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| Wins           | `DON_WINS`           | The amount of times the user has managed to take the money without loosing everything.                    | When the user chooses to take the money.                               |
+| Losses         | `DON_LOSSES`         | The amount of time shte user has chosen to double up, but lost everything.                                | When the user loses everything.                                        |
+| Longest Streak | `DON_LONGEST_STREAK` | The maximum amount of times the user has managed to double up wihtin one game without loosing everything. | When the user has a new highest amount of double up's within one game. |
+{% hint style="info" %}
+For more information about stats, view the [stats](/Features/stats.md) article.
+{% endhint %}
+
+## Command
+The command for Double or Nothing is `!doubleornothing`.
+This command also listens to the following alias:
+- `!don`
+
+#### Command parameter
+| Parameter | Type   | Description                                                                     | Required? |
+|-----------|--------|---------------------------------------------------------------------------------|-----------|
+| Bet       | Number | Defines the bet of the user, defaults to the `DEFAULT_BET` setting of the user. | No        |
+{% hint style="info" %}
+For more information about the [default bet](/Features/user-settings.md#default-bet) setting, view the [user settings](/Features/user-settings.md) article.
+{% endhint %}
+
+#### Command examples
+| Example                | Action                                                                  | Response                         |
+|------------------------|-------------------------------------------------------------------------|----------------------------------|
+| `!doubleornothing`     | Starts a new game of Double or Nothing with the default bet as the bet. | A new game of Double or Nothing. |
+| `!doubleornothing 100` | Starts a new game of Double or Nothing with the bet set to 100.         | A new game of Double or Nothing. |
+
+#### Permission requirements
+This command requires no permissions.
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
+{% endhint %}

@@ -14,6 +14,7 @@
 * Minigames
     * [Blackjack](/Minigames/blackjack.md)
     * [Challenge](/Minigames/challenge.md)
+    * [Double or nothing](/Minigames/double-or-nothing.md)
 * Systems
     * [Daily bonus](/Systems/daily-bonus.md)
     * [Experience](/Systems/experience.md)

@@ -23,11 +23,11 @@ Server owners can control the amounts of bonuses their users can claim every day
 * Bonus multiplier
 * Bonus multiplier cap
 {% hint style="info" %}
-For more infomation about [controlling bonus amounts](/Features/server-settings.md#daily-bonus), view the [Server settings](/Features/server-settings.md) article.
+For more information about [controlling bonus amounts](/Features/server-settings.md#daily-bonus), view the [Server settings](/Features/server-settings.md) article.
 {% endhint %}
 
 ## Timer reset
-A user can claim their bonus once a day. However the system does not make use of a 24 hour timer, but all users will be reset at once. The timer resets at 12AM UTC.
+A user can claim their bonus once a day. However the system does not make use of a 24 hour timer, but all users will be reset at once at a fixed time every day. The timer resets at 12AM UTC.
 {% hint style="info" %}
 To see what the current time in UTC is, please go to [timeanddate.com](https://www.timeanddate.com/worldclock/timezone/utc). 
 {% endhint %}

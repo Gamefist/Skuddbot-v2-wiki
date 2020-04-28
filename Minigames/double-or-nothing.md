@@ -40,24 +40,29 @@ When choosing to take the money without doubling up before, no stats will be awa
 For more information about stats, view the [stats](/Features/stats.md) article.
 {% endhint %}
 
+## Rewards
+When the user rolls nothing, no rewards will be awarded.
+When the user chooses to take the money, they will gain the amount of money they racked up, and a experience reward of 50xp for every double up they managed to get successfully.
+
 ## Command
-The command for Double or Nothing is `!doubleornothing`.
+The command for Double or Nothing is `!doubleornothing`.  
 This command also listens to the following alias:
 - `!don`
 
 #### Command parameter
-| Parameter | Type   | Description                                                                     | Required? |
-|-----------|--------|---------------------------------------------------------------------------------|-----------|
-| Bet       | Number | Defines the bet of the user, defaults to the `DEFAULT_BET` setting of the user. | No        |
+| Parameter    | Type            | Description                                                                                                   | Required? |
+|--------------|-----------------|---------------------------------------------------------------------------------------------------------------|-----------|
+| Bet / All In | Number / String | Defines the bet of the user, defaults to the `DEFAULT_BET` setting of the user. / Can be "all" to bet all in. | No        |
 {% hint style="info" %}
 For more information about the [default bet](/Features/user-settings.md#default-bet) setting, view the [user settings](/Features/user-settings.md) article.
 {% endhint %}
 
 #### Command examples
-| Example                | Action                                                                  | Response                         |
-|------------------------|-------------------------------------------------------------------------|----------------------------------|
-| `!doubleornothing`     | Starts a new game of Double or Nothing with the default bet as the bet. | A new game of Double or Nothing. |
-| `!doubleornothing 100` | Starts a new game of Double or Nothing with the bet set to 100.         | A new game of Double or Nothing. |
+| Example                | Action                                                                                    | Response                         |
+|------------------------|-------------------------------------------------------------------------------------------|----------------------------------|
+| `!doubleornothing`     | Starts a new game of Double or Nothing with the default bet as the bet.                   | A new game of Double or Nothing. |
+| `!doubleornothing 100` | Starts a new game of Double or Nothing with the bet set to 100.                           | A new game of Double or Nothing. |
+| `!doubleornothing all` | Starts a new game of Double or Nothing with the bet set to your current Skuddbux balance. | A new game of Double or Nothing. |
 
 #### Permission requirements
 This command requires no permissions.

@@ -11,10 +11,12 @@
     * [Server settings](/Features/server-settings.md)
     * [Stats](/Features/stats.md)
     * [User settings](/Features/user-settings.md)
+    * [Team Deathmatch](/Minigames/team-deathmatch.md)
 * Minigames
     * [Blackjack](/Minigames/blackjack.md)
     * [Challenge](/Minigames/challenge.md)
-    * [Double or nothing](/Minigames/double-or-nothing.md)
+    * [Double or Nothing](/Minigames/double-or-nothing.md)
+    * [Free for All](/Minigames/free-for-all.md)
 * Systems
     * [Daily bonus](/Systems/daily-bonus.md)
     * [Experience](/Systems/experience.md)

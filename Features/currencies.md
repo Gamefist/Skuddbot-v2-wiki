@@ -58,7 +58,7 @@ Reactions can be clicked to get a more detailed response.
 {% endhint %}
 
 
-### Currency leaderboards
+### Leaderboards
 The command for viewing currency leaderboards is: `!currencyleaderboard`.
 This command also listens to the following aliases:
 - `!clb`

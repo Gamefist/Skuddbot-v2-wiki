@@ -3,34 +3,34 @@
 Skuddbot features a stats system, where all kinds of statistics about the user are tracked. Users can build up their statistics by chatting and playing minigames.
 
 ## Available stats
-| Stat Name                                                       | Technical Name                | Tracks                                                            | Category     | Leaderboard? | Editable? |
-|-----------------------------------------------------------------|-------------------------------|-------------------------------------------------------------------|--------------|--------------|-----------|
-| [Experience](/Systems/experience.md)                            | `EXPERIENCE`                  | The user's experience amount.                                     | No Category  | Yes          | Yes       |
-| [Challenge wins](/Minigames/challenge.md)                       | `CHALLENGE_WINS`              | The amount of wins the user has gotten in Challenge.              | Challenge    | Yes          | Yes       |
-| [Challenge losses](/Minigames/challenge.md)                     | `CHALLENGE_LOSSES`            | The amount of losses the user has gotten in Challenge.            | Challenge    | Yes          | Yes       |
-| [Challenge winstreak](/Minigames/challenge.md)                  | `CHALLENGE_WINSTREAK`         | The current Challenge winstreak of the user.                                | Challenge    | Yes          | Yes       |
-| [Challenge longest winstreak](/Minigames/challenge.md)          | `CHALLENGE_LONGEST_WINSTREAK` | The longest Challenge winstreak of the user.                                | Challenge    | Yes          | Yes       |
-| [Free for All wins](/Minigames/free-for-all.md)                 | `FFA_WINS`                    | The amount of wins the user has gotten in Free for All.           | Free for All | Yes          | Yes       |
-| [Free for All losses](/Minigames/free-for-all.md)               | `FFA_LOSSES`                  | The amount of losses the user has gotten in Free for All.         | Free for All | Yes          | Yes       |
-| [Free for All highest entrants win](/Minigames/free-for-all.md) | `FFA_HIGHEST_WIN`             | The highest amount of people entered into a FFA the user has won. | Free for All | Yes          | Yes       |
-| [Free for All kills](/Minigames/free-for-all.md)                | `FFA_KILLS`                   | The amount of kills the user has gotten in Free for All .         | Free for All | Yes          | Yes       |
-| [Blackjack wins](/Minigames/blackjack.md)                       | `BJ_WINS`                     | The amount of winsthe user has gotten in Blackjack .              | Blackjack    | Yes          | Yes       |
-| [Blackjack losses](/Minigames/blackjack.md)                     | `BJ_LOSSES`                   | The amount of losses the user has gotten in Blackjack.            | Blackjack    | Yes          | Yes       |
-| [Blackjack pushes](/Minigames/blackjack.md)                     | `BJ_PUSHES`                   | The amount of pushes the user has gotten in Blackjack.                         | Blackjack    | Yes          | Yes       |
-| [Blackjack 21's](/Minigames/blackjack.md)                       | `BJ_TWENTY_ONES`              | The amount of 21's the user has gotten in Blackjack.                           | Blackjack    | Yes          | Yes       |
-| [Blackjack Blackjack's](/Minigames/blackjack.md)                | `BJ_BLACKJACKS`               | The amount of blackjacks the user has gotten.                     | Blackjack    | Yes          | Yes       |
-| [Team Deathmatch wins](/Minigames/team-deathmatch.md) | `TD_WINS` | The amount of wins the user has gotten in Team Deathmatch. | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch losses](/Minigames/team-deathmatch.md) | `TD_LOSSES` | The amount of losses the user has gotten in Team Deathmatch | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch defences](/Minigames/team-deathmatch.md) | `TD_DEFENCES` | The amount of times a user has saved a teammate from dying in Team Deathmatch. | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch highest win](/Minigames/team-deathmatch.md) | `TD_HIGHEST_WIN` | The highest amount of people entered into Team Deathmatch the user has won. | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch entire time survived](/Minigames/team-deathmatch.md) | `TD_ALL_SURIVED` | The amount of times the entire team the user was a part of has survived. | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch kills](/Minigames/team-deathmatch.md) | `TD_KILLS` | The amount of kills the user has gotten in Team Deathmatch. | Team Deathmatch | Yes | Yes |
-| [Team Deathmatch favourite teammate](/Minigames/team-deathmatch.md) | `TD_TEAMMATES` | The teammate(s) the user has teamed up with the most. | Team Deathmatch | No | No |
-| [Daily Bonus current streak](/Systems/daily-bonus.md) | `DAILY_CURRENT_STREAK` | The current claim streak of the daily bonus the user is on. | Daily Bonus | Yes | Yes |
-| [Daily Bonus longest streak](/Systems/daily-bonus.md) | `DAILY_LONGEST_STREAK` | The longest claim streak of the daily bonus the user has had. | Daily Bonus | Yes | Yes |
-| [Double or Nothing wins](/Minigames/double-or-nothing.md) | `DON_WINS` | The amount wins the user has gotten in Double or Nothing. | Double or Nothing | Yes | Yes |
-| [Double or Nothing losses](/Minigames/double-or-nothing.md) | `DON_LOSSES` | The amount of losses the user has gotten in Double or Nothing | Double or Nothing | Yes | Yes |
-| [Double or Nothing longest streak](/Minigames/double-or-nothing.md) | `DON_LONGEST_STREAK` | The higest amount of times the user has managed to double up within one game wihtout losing. | Double or Nothing | Yes | Yes |
+| Stat Name                                                             | Technical Name                | Tracks                                                                                       | Leaderboard? | Editable? |
+|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------------------------------------------------------|--------------|-----------|
+| [Experience](/Systems/experience.md)                                  | `EXPERIENCE`                  | The user's experience amount.                                                                | Yes          | Yes       |
+| [Challenge wins](/Minigames/challenge.md)                             | `CHALLENGE_WINS`              | The amount of wins the user has gotten in Challenge.                                         | Yes          | Yes       |
+| [Challenge losses](/Minigames/challenge.md)                           | `CHALLENGE_LOSSES`            | The amount of losses the user has gotten in Challenge.                                       | Yes          | Yes       |
+| [Challenge winstreak](/Minigames/challenge.md)                        | `CHALLENGE_WINSTREAK`         | The current Challenge winstreak of the user.                                                 | Yes          | Yes       |
+| [Challenge longest winstreak](/Minigames/challenge.md)                | `CHALLENGE_LONGEST_WINSTREAK` | The longest Challenge winstreak of the user.                                                 | Yes          | Yes       |
+| [Free for All wins](/Minigames/free-for-all.md)                       | `FFA_WINS`                    | The amount of wins the user has gotten in Free for All.                                      | Yes          | Yes       |
+| [Free for All losses](/Minigames/free-for-all.md)                     | `FFA_LOSSES`                  | The amount of losses the user has gotten in Free for All.                                    | Yes          | Yes       |
+| [Free for All highest entrants win](/Minigames/free-for-all.md)       | `FFA_HIGHEST_WIN`             | The highest amount of people entered into a FFA the user has won.                            | Yes          | Yes       |
+| [Free for All kills](/Minigames/free-for-all.md)                      | `FFA_KILLS`                   | The amount of kills the user has gotten in Free for All .                                    | Yes          | Yes       |
+| [Blackjack wins](/Minigames/blackjack.md)                             | `BJ_WINS`                     | The amount of winsthe user has gotten in Blackjack .                                         | Yes          | Yes       |
+| [Blackjack losses](/Minigames/blackjack.md)                           | `BJ_LOSSES`                   | The amount of losses the user has gotten in Blackjack.                                       | Yes          | Yes       |
+| [Blackjack pushes](/Minigames/blackjack.md)                           | `BJ_PUSHES`                   | The amount of pushes the user has gotten in Blackjack.                                       | Yes          | Yes       |
+| [Blackjack 21's](/Minigames/blackjack.md)                             | `BJ_TWENTY_ONES`              | The amount of 21's the user has gotten in Blackjack.                                         | Yes          | Yes       |
+| [Blackjack Blackjack's](/Minigames/blackjack.md)                      | `BJ_BLACKJACKS`               | The amount of blackjacks the user has gotten.                                                | Yes          | Yes       |
+| [Team Deathmatch wins](/Minigames/team-deathmatch.md)                 | `TD_WINS`                     | The amount of wins the user has gotten in Team Deathmatch.                                   | Yes          | Yes       |
+| [Team Deathmatch losses](/Minigames/team-deathmatch.md)               | `TD_LOSSES`                   | The amount of losses the user has gotten in Team Deathmatch                                  | Yes          | Yes       |
+| [Team Deathmatch defences](/Minigames/team-deathmatch.md)             | `TD_DEFENCES`                 | The amount of times a user has saved a teammate from dying in Team Deathmatch.               | Yes          | Yes       |
+| [Team Deathmatch highest win](/Minigames/team-deathmatch.md)          | `TD_HIGHEST_WIN`              | The highest amount of people entered into Team Deathmatch the user has won.                  | Yes          | Yes       |
+| [Team Deathmatch entire time survived](/Minigames/team-deathmatch.md) | `TD_ALL_SURIVED`              | The amount of times the entire team the user was a part of has survived.                     | Yes          | Yes       |
+| [Team Deathmatch kills](/Minigames/team-deathmatch.md)                | `TD_KILLS`                    | The amount of kills the user has gotten in Team Deathmatch.                                  | Yes          | Yes       |
+| [Team Deathmatch favourite teammate](/Minigames/team-deathmatch.md)   | `TD_TEAMMATES`                | The teammate(s) the user has teamed up with the most.                                        | No           | No        |
+| [Daily Bonus current streak](/Systems/daily-bonus.md)                 | `DAILY_CURRENT_STREAK`        | The current claim streak of the daily bonus the user is on.                                  | Yes          | Yes       |
+| [Daily Bonus longest streak](/Systems/daily-bonus.md)                 | `DAILY_LONGEST_STREAK`        | The longest claim streak of the daily bonus the user has had.                                | Yes          | Yes       |
+| [Double or Nothing wins](/Minigames/double-or-nothing.md)             | `DON_WINS`                    | The amount wins the user has gotten in Double or Nothing.                                    | Yes          | Yes       |
+| [Double or Nothing losses](/Minigames/double-or-nothing.md)           | `DON_LOSSES`                  | The amount of losses the user has gotten in Double or Nothing                                | Yes          | Yes       |
+| [Double or Nothing longest streak](/Minigames/double-or-nothing.md)   | `DON_LONGEST_STREAK`          | The higest amount of times the user has managed to double up within one game wihtout losing. | Yes          | Yes       |
 
 ## Categories
 | Category          | Technical Name      |
@@ -61,10 +61,10 @@ I am aware that this command is a bit complicated, this is because I am nearing 
 
 #### Command parameters
 ##### Viewing
-| Parameter         | Type             | Description                                                                                                              | Required? |
-|-------------------|------------------|--------------------------------------------------------------------------------------------------------------------------|-----------|
-| Category          | String           | Specifies the category to be shown. - Is automatically set to upper case and dashes `(-)` are replaced by underscores `(_)`. | Yes       |
-| User ID / Mention | Number / Mention | Specifies the user to be shown, defaults to the user running the command.                                                | No        |
+| Parameter         | Type             | Description                                                                                                                                                                | Required? |
+|-------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Category / List   | String           | Specifies the category to be shown. - Is automatically set to upper case and dashes `(-)` are replaced by underscores `(_)`. - Can be "list" to view all categories/stats. | Yes       |
+| User ID / Mention | Number / Mention | Specifies the user to be shown, defaults to the user running the command.                                                                                                  | No        |
 
 ##### Editing
 | Parameter          | Type             | Description                                                                                                                            | Required? |

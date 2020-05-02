@@ -2,7 +2,7 @@
 
 {% hint style="warning" %}
 This page is still a concept, features mentioned may not be implemented yet and may not be final. [Feedback is welcome!](/Help/contact.md)
-{% endgame %}
+{% endhint %}
 
 ## Introduction
 Free for All is a minigame where multiple users can battle, but only one will emerge victorious!

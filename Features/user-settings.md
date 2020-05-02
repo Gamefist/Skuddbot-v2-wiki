@@ -11,7 +11,7 @@ Settings are saved on a per-server-basis, so it is possible for users to have se
 | [Tracking enabled](#track-me)                   | `TRACK_ME`           | Defines if the bot will track your statistics.          | Boolean    | true          |
 | [Profile private](#profile-private)             | `PROFILE_PRIVATE`    | Defines if your profile is private.                     | Boolean    | false         |
 | [Mention me](#mention-me)                       | `MENTION_ME`         | Defines if you are mentioned in useless commands.       | Boolean    | false         |
-| [~~Minigame reminders~~](#minigame-reminders)   | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames | Boolean    | true          |
+| [Minigame reminders](#minigame-reminders)       | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames | Boolean    | true          |
 | [Default bet](#default-bet)                     | `DEFAULT_BET`        | Defines the default bet used in various minigames.      | Number     | 50            |
 
 ## Setting details
@@ -44,13 +44,14 @@ For more information about useless commands, view the [Useless Commands](/Comman
 {% endhint%}
 
 ### Minigame reminders
-{% hint style="warning" %}
-This setting is still under development and not in use yet.
-{% endhint %}
+This setting defines if you are reminded about outstanding minigames. When enabled, you are sent reminders in DM.
+This currently applies to the following minigames:
+* [Free for All](/Minigames/free-for-all.md)
 
 ### Default bet
 This setting defines what the bet of the user will be when they don't specify a bet when starting the minigame. This setting currently applies to the following minigames:
 * [Double or Nothing](/Minigames/double-or-nothing.md)
+* [Free for All](/Minigames/free-for-all.md)
 
 ## Command
 The command for viewing and editing user settings is: `!usersettings`.   

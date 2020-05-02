@@ -34,7 +34,7 @@ When choosing to take the money without doubling up before, no stats will be awa
 | Stat           | Technical name       | Tracks                                                                                                    | Awarded                                                                |
 |----------------|----------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | Wins           | `DON_WINS`           | The amount of times the user has managed to take the money without loosing everything.                    | When the user chooses to take the money.                               |
-| Losses         | `DON_LOSSES`         | The amount of time shte user has chosen to double up, but lost everything.                                | When the user loses everything.                                        |
+| Losses         | `DON_LOSSES`         | The amount of times the user has chosen to double up, but lost everything.                                | When the user loses everything.                                        |
 | Longest Streak | `DON_LONGEST_STREAK` | The maximum amount of times the user has managed to double up wihtin one game without loosing everything. | When the user has a new highest amount of double up's within one game. |
 {% hint style="info" %}
 For more information about stats, view the [stats](/Features/stats.md) article.

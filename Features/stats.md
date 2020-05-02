@@ -63,7 +63,7 @@ I am aware that this command is a bit complicated, this is because I am nearing 
 ##### Viewing
 | Parameter         | Type             | Description                                                                                                                                                                | Required? |
 |-------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Category / List   | String           | Specifies the category to be shown. - Is automatically set to upper case and dashes `(-)` are replaced by underscores `(_)`. - Can be "list" to view all categories/stats. | Yes       |
+| Category / List   | String           | Specifies the category to be shown. - Is automatically set to upper case and dashes `(-)` are replaced by underscores `(_)`. - Can be `list` to view all categories/stats. | Yes       |
 | User ID / Mention | Number / Mention | Specifies the user to be shown, defaults to the user running the command.                                                                                                  | No        |
 
 ##### Editing

@@ -1,7 +1,7 @@
 # Free for All
 
 {% hint style="warning" %}
-This page is still a concept, features mentioned may not be implemented yet and may not be final.
+This page is still a concept, features mentioned may not be implemented yet and may not be final. [Feedback is welcome!](/Help/contact.md)
 {% endgame %}
 
 ## Introduction

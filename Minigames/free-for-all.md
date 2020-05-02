@@ -42,7 +42,7 @@ This game gives out the following rewards:
 | Winning the game                             | +100xp, +50 Skuddbux, +1 FFA win |
 | Winning the game with a new highest entrants | FFA highest entrants updated     |
 
-## Betting
+## Betting system
 When a user enters a Free for All, they can place an optional bet. They are betting on themselves winning. When a user wins, and has placed a bet, they will win the amount of the bets from other entrants, and their own bet will double. When the user hasn't betted, their will be no bets payed out.
 {% hint style="info" %}
 For information on how to place bets, view the [entering the game](#entering-the-game) section.

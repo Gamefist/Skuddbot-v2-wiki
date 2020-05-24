@@ -26,6 +26,10 @@ Server owners can control the amounts of bonuses their users can claim every day
 For more information about [controlling bonus amounts](/Features/server-settings.md#daily-bonus), view the [Server settings](/Features/server-settings.md) article.
 {% endhint %}
 
+### Weekly bonus
+When a user has reached their cap, their bonus will no longer increase every week. But when they have hit their cap, they will be eligible for a weekly bonus. Once a week (every 7th day), the user will receive double their normal bonus. 
+The user does not need to do anything to get the bonus, if it is the 7th day and the user claims their daily bonus, the weekly bonus is automatically applied.
+
 ## Timer reset
 A user can claim their bonus once a day. However the system does not make use of a 24 hour timer, but all users will be reset at once at a fixed time every day. The timer resets at 12AM UTC.
 {% hint style="info" %}

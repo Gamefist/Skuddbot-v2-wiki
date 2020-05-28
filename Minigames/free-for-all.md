@@ -25,6 +25,13 @@ When a game is outstanding, a user can enter the game in 2 ways, without a bet o
 ### Starting the fight
 When a game is outstanding, the host of the game can start the fight by clicking the ![](https://i.imgur.com/rEFJP65.png) reaction. The Free for All must contain at least 3 entrants for it to be started. When the game is started, the results will be revealed after 5 seconds.
 
+#### Force-starting the fight
+Users with the server admin permission can force-start the fight, this is done by adding the ![](https://i.imgur.com/UUpPhCO.png) reaction to the message. When forcefully starting a Free for All the entrants requirement is lowered from 3 to 2.
+The fight will be marked as started by admin.
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
+{% endhint %}
+
 ### Post-game
 The fight of Free for All is simulated in the background, meaning users actually kill each other, from this the bot also generates a kill feed. The kill feed can be viewed by clicking the ![](https://i.imgur.com/7fUiBDQ.png) reaction. To view the rewards breakdown, click the ![](https://i.imgur.com/BlfMxg2.png) reaction.
 
@@ -66,6 +73,8 @@ Every 6 hours the host will be reminded of a outstanding game via a DM, but only
 The game will auto-start if:
 * The entrants, since the last reminder, haven't increased.
 * The game has been outstanding for at least 12 hours.
+
+When the fight is auto-started, the fight is marked as auto-started by bot.
 {% hint style="info" %}
 For more information about enabling [minigame reminders](/Features/user-settings.md#minigame-reminders), view the [user settings](/Features/user-settings.md) article.
 {% endhint %}

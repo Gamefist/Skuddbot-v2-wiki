@@ -1,4 +1,9 @@
 # Server settings
+
+{% hint style="info" %}
+This page contains features that have not yet been released!
+{% endhint %}
+
 ## Introduction
 Skuddbot features an server settings. This allows server owners to change parts of Skuddbot to their liking and tailor their own Skuddbot experience for their server. 
 
@@ -132,6 +137,9 @@ This command also listens to the following aliases:
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}
+
+#### Pages
+When viewing all settings, users may use the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions to navigate between pages.
 
 #### Permission requirements
 This command requires the `SERVER_ADMIN` permission.

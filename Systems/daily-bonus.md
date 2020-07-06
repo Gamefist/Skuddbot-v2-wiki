@@ -27,7 +27,7 @@ For more information about [controlling bonus amounts](/Features/server-settings
 {% endhint %}
 
 ### Weekly bonus
-When a user has reached their cap, their bonus will no longer increase every week. But when they have hit their cap, they will be eligible for a weekly bonus. Once a week (every 7th day), the user will receive double their normal bonus. 
+When a user has reached their cap, their bonus will no longer increase. But when they have hit their cap, they will be eligible for a weekly bonus. Once a week (every 7th day), the user will receive double their normal bonus. 
 The user does not need to do anything to get the bonus, if it is the 7th day and the user claims their daily bonus, the weekly bonus is automatically applied.
 
 ## Timer reset

@@ -1,7 +1,8 @@
 # Server settings
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This page contains features that have not yet been released!
+Features mentioned on this page may not be final.
 {% endhint %}
 
 ## Introduction
@@ -139,7 +140,8 @@ Reactions can be clicked to get a more detailed response.
 {% endhint %}
 
 #### Pages
-When viewing all settings, users may use the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions to navigate between pages.
+When viewing all settings, users may use the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions to navigate between pages. Users may use the ![](https://i.imgur.com/yIDl5mz.png) reaction to refresh the page.
+Buttons disappear after 10 minutes.
 
 #### Permission requirements
 This command requires the `SERVER_ADMIN` permission.

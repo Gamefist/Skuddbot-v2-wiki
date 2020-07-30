@@ -17,6 +17,8 @@
     * [Double or Nothing](/Minigames/double-or-nothing.md)
     * [Free for All](/Minigames/free-for-all.md)
     * [Team Deathmatch](/Minigames/team-deathmatch.md)
+* Moderation Tools
+    * [Purge Command](ModerationTools/purge.md)
 * Systems
     * [Daily bonus](/Systems/daily-bonus.md)
     * [Experience](/Systems/experience.md)

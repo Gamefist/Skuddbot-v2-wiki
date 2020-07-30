@@ -8,6 +8,8 @@ Users can play minigames in Skuddbot which will allow them to gain experience. T
 Currently the following minigames award experience:
 * [Blackjack](/Minigames/blackjack.md)
 * [Challenge](/Minigames/challenge.md)
+* [Double or Nothing](/Minigames/double-or-nothing.md)
+* [Free For All](/Minigames/free-for-all.md)
 
 ### Chatting
 A user will gain a random amount of experience between a set minimum and maximum value per message they post. These minimum and maximum values can be set by the server admins using the `!serversettings` command.

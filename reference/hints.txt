@@ -1,0 +1,3 @@
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
+{% endhint %}

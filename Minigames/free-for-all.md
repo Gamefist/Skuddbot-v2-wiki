@@ -1,4 +1,7 @@
 # Free for All
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
 
 ## Introduction
 Free for All is a minigame where multiple users can battle, but only one will emerge victorious!
@@ -17,6 +20,17 @@ When a game is outstanding, a user can enter the game in 2 ways, without a bet o
 * For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
 * For more information about the betting system, view the [betting system](#betting-system) section.
 {% endhint %}
+
+### Leaving the game
+#### Using reactions
+A user can leave the game by removing either the ![](https://i.imgur.com/o8SZQlF.png) or the ![](https://i.imgur.com/LqZbyj6.png) reaction.
+It does not matter whether they betted or not. Removing the ![](https://i.imgur.com/LqZbyj6.png) reaction will also cause the user to be removed from the game even if they did not place a bet. The reverse is also true.
+
+#### Using commands
+A user can simply leave the game by typing `!freeforall leave`.
+
+### Changing bets
+If a user wants to change their bet, they first must leave the game and then re-join it with their new bet.
 
 ### Starting the fight
 When a game is outstanding, the host of the game can start the fight by clicking the ![](https://i.imgur.com/rEFJP65.png) reaction. The Free for All must contain at least 3 entrants for it to be started. When the game is started, the results will be revealed after 5 seconds.
@@ -83,21 +97,25 @@ The command for Free for All is `!freeforall`.
 This command also listens to the following alias: `!ffa`.
 
 #### Command parameter
-| Parameter | Type   | Description                        | Required? |
-|-----------|--------|------------------------------------|-----------|
-| Bet       | Number | Defines the bet you want to place. | No        |
+| Parameter | Type    | Description                                                      | Required? |
+|-----------|---------|------------------------------------------------------------------|-----------|
+| Bet       | Number  | Defines the bet you want to place.                               | No        |
+| **OR**    |         |                                                                  |           |
+| `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |
 
 #### Command examples
-| Example    | Game outstanding? | Action                                                                                                 | Response                                                      |
-|------------|-------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| `!ffa`     | No                | A new game will be started.                                                                            | A message with a new game of Free for All.                    |
-|            | Yes               | The user is entered into the outstanding game of Free for All without a bet.                           | The Free for All message is updated, and the message deleted. |
-| `!ffa bet` | No                | A new game will be started, and the host is entered with their default bet as their bet.               | A message with a new game of Free for All.                    |
-|            | Yes               | The user is entered in to the outstanding game of Free for All with their default bet as their bet.    | The Free for All message is updated, and the message deleted. |
-| `!ffa 100` | No                | A new game will be started, and the host is entered with 100 Skuddbux as their bet.                    | A message with a new game of Free for All.                    |
-|            | Yes               | The user is entered into the outstanding game of Free for All with 100 Skuddbux as their bet.          | The Free for All message is updated, and the message deleted. |
-| `!ffa all` | No                | A new game will be started and the host is entered with all of their Skuddbux as their bet.            | A message with a new game of Free for All.                    |
-|            | Yes               | The user is entered into the outstanding game of Free for All with all of thier Skuddbux as their bet. | The Free for All message is updated, and the message deleted. |
+| Example             | Game outstanding? | Action                                                                                                 | Response                                                      |
+|---------------------|-------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| `!freeforall`       | No                | A new game will be started.                                                                            | A message with a new game of Free for All.                    |
+|                     | Yes               | The user is entered into the outstanding game of Free for All without a bet.                           | The Free for All message is updated, and the message deleted. |
+| `!freeforall bet`   | No                | A new game will be started, and the host is entered with their default bet as their bet.               | A message with a new game of Free for All.                    |
+|                     | Yes               | The user is entered in to the outstanding game of Free for All with their default bet as their bet.    | The Free for All message is updated, and the message deleted. |
+| `!freeforall 100`   | No                | A new game will be started, and the host is entered with 100 Skuddbux as their bet.                    | A message with a new game of Free for All.                    |
+|                     | Yes               | The user is entered into the outstanding game of Free for All with 100 Skuddbux as their bet.          | The Free for All message is updated, and the message deleted. |
+| `!freeforall all`   | No                | A new game will be started and the host is entered with all of their Skuddbux as their bet.            | A message with a new game of Free for All.                    |
+|                     | Yes               | The user is entered into the outstanding game of Free for All with all of thier Skuddbux as their bet. | The Free for All message is updated, and the message deleted. |
+| `!freeforall leave` | No                | A error message occours.                                                                               | A error message.                                              |
+|                     | Yes               | The user leaves the game.                                                                              | Confirmation of game leaving and game message is updated.     |
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}

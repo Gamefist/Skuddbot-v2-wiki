@@ -1,3 +1,11 @@
 {% hint style="info" %}
 For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
 {% endhint %}
+
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
+{% hint style="info" %}
+Reactions can be clicked to get a more detailed response.
+{% endhint %}

@@ -1,5 +1,4 @@
-# Purge
-
+# Purge command
 {% hint style="warning" %}
 This page contains features that have not yet been released!
 Features mentioned on this page may not be final.
@@ -21,7 +20,7 @@ For more information about the command, view the [command](#command) section.
 ## Time to complete a purge
 Sometimes a purge might take longer than expected. This is to do with the way the Discord API works.
 
-### Sending messages to the API
+### Sending requests to the API
 The bot can send roughly 10 requests every 10 seconds to the API. When the bot sends more than this, Discord will deny the requests.
 
 ### Purging messages younger than 2 weeks

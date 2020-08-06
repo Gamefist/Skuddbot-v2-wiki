@@ -104,20 +104,16 @@ This command also listens to the following alias: `!ffa`.
 | `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |
 
 #### Command examples
-| Example             | Game outstanding? | Action                                                                                                 | Response                                                      |
-|---------------------|-------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| `!freeforall`       | No                | A new game will be started.                                                                            | A message with a new game of Free for All.                    |
-|                     | Yes               | The user is entered into the outstanding game of Free for All without a bet.                           | The Free for All message is updated, and the message deleted. |
-| `!freeforall bet`   | No                | A new game will be started, and the host is entered with their default bet as their bet.               | A message with a new game of Free for All.                    |
-|                     | Yes               | The user is entered in to the outstanding game of Free for All with their default bet as their bet.    | The Free for All message is updated, and the message deleted. |
-| `!freeforall 100`   | No                | A new game will be started, and the host is entered with 100 Skuddbux as their bet.                    | A message with a new game of Free for All.                    |
-|                     | Yes               | The user is entered into the outstanding game of Free for All with 100 Skuddbux as their bet.          | The Free for All message is updated, and the message deleted. |
-| `!freeforall all`   | No                | A new game will be started and the host is entered with all of their Skuddbux as their bet.            | A message with a new game of Free for All.                    |
-|                     | Yes               | The user is entered into the outstanding game of Free for All with all of thier Skuddbux as their bet. | The Free for All message is updated, and the message deleted. |
-| `!freeforall leave` | No                | A error message occours.                                                                               | A error message.                                              |
-|                     | Yes               | The user leaves the game.                                                                              | Confirmation of game leaving and game message is updated.     |
+| Example             | Action                                                                          | Response                                                  |
+|---------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
+| `!freeforall`       | The user will be entered into the game with their default bet as their bet.     | The message is deleted and the game message updated.      |
+| `!freeforall 0`     | The user will be entered into the game with no bet.                             | The message is deleted and the game message updated.      |
+| `!freeforall 100`   | The user will be entered into the game with 100 Skuddbux as their bet.          | The message is deleted and the game message updated.      |
+| `!freeforall all`   | The user will be entered into the game with all of their Skuddbux as their bet. | The message is deleted and the game message updated.      |
+| `!freeforall leave` | The user leaves the game.                                                       | Confirmation of game leaving and game message is updated. |
 {% hint style="info" %}
-Reactions can be clicked to get a more detailed response.
+* When there's no current game active, using a command to enter the game will automatically create a new game.
+* Reactions can be clicked to get a more detailed response.
 {% endhint %}
 
 #### Permission requirements

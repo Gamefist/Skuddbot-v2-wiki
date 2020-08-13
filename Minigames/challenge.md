@@ -69,7 +69,7 @@ This command also listens to the following aliases:
 |---------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | `!challenge @MyNameIsDave#0123` | The specified user will be challenged or when there's a eligable challenge it will be accepted. | A new challenge or a fight is started                         |
 | `!challenge open`               | A new open challenge is started.                                                                | A new open challenge.                                         |
-| `!challenge cancel`             | If there's one, the outstanding challenge is cancelled.                                         | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
+| `!challenge cancel`             | If there's one, the outstanding challenge is canceled.                                          | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}
@@ -78,4 +78,4 @@ Reactions can be clicked to get a more detailed response.
 This command requires no permissions.
 {% hint style="info" %}
 For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
-{% endhint %}
+{% endhint %} 

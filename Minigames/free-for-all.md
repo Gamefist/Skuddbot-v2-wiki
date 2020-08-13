@@ -53,7 +53,7 @@ The fight of Free for All is simulated in the background, meaning users actually
 | Highest entrants win | `FFA_HIGHEST_WIN` | The highest amount of entrants in a game the user has won.      | When the user achieves a new highest entrants win. |
 | Kills                | `FFA_KILLS`       | The amount of kills the user has gotten in a Free for All.      | When the user kills someone in a Free for All      |
 | Bets won             | `FFA_BETS_WON`    | The amount of bets the user has won.                            | When the user wins a bet.                          |
-| Bets lost            | `FFA_BETS_LOST    | The amount of bets the user has lost.                           | When the user loses a bet.                         |
+| Bets lost            | `FFA_BETS_LOST`   | The amount of bets the user has lost.                           | When the user loses a bet.                         |
 {% hint style="info" %}
 * For more information about stats, view the [stats](/Features/stats.md) article.
 * For more information about the betting system, view the [betting system](#betting-system) section.

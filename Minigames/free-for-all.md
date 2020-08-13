@@ -96,10 +96,10 @@ This game has a 5 minute cooldown period, this applies to all entrants of the ga
 The command for Free for All is `!freeforall`.
 This command also listens to the following alias: `!ffa`.
 
-#### Command parameter
+#### Command parameters
 | Parameter | Type    | Description                                                      | Required? |
 |-----------|---------|------------------------------------------------------------------|-----------|
-| Bet       | Number  | Defines the bet you want to place.                               | No        |
+| Bet       | Number  | Defines the bet the user wants to place.                         | No        |
 | **OR**    |         |                                                                  |           |
 | `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |
 

@@ -10,6 +10,8 @@ Skuddbot features a stats system, where all kinds of statistics about the user a
 | [Challenge losses](/Minigames/challenge.md)                           | `CHALLENGE_LOSSES`            | The amount of losses the user has gotten in Challenge.                                       | Yes          | Yes       |
 | [Challenge winstreak](/Minigames/challenge.md)                        | `CHALLENGE_WINSTREAK`         | The current Challenge winstreak of the user.                                                 | Yes          | Yes       |
 | [Challenge longest winstreak](/Minigames/challenge.md)                | `CHALLENGE_LONGEST_WINSTREAK` | The longest Challenge winstreak of the user.                                                 | Yes          | Yes       |
+| [Challenge bets won](/Minigames/challenge.md)                         | `CHALLENGE_BETS_WON`          | The amount of bets the user has won in challenge.                                            | Yes          | Yes       |
+| [Challenge bets lost](/Minigames/challenge.md)                        | `CHALLENGE_BETS_LOST`         | The amount of bets the user has lost in challenge.                                           | Yes          | Yes       |
 | [Free for All wins](/Minigames/free-for-all.md)                       | `FFA_WINS`                    | The amount of wins the user has gotten in Free for All.                                      | Yes          | Yes       |
 | [Free for All losses](/Minigames/free-for-all.md)                     | `FFA_LOSSES`                  | The amount of losses the user has gotten in Free for All.                                    | Yes          | Yes       |
 | [Free for All highest entrants win](/Minigames/free-for-all.md)       | `FFA_HIGHEST_WIN`             | The highest amount of people entered into a FFA the user has won.                            | Yes          | Yes       |
@@ -44,7 +46,6 @@ Skuddbot features a stats system, where all kinds of statistics about the user a
 | Team Deathmatch   | `TEAM_DEATHMATCH`   |
 | Daily Bonus       | `DAILY_BONUS`       |
 | Double or Nothing | `DOUBLE_OR_NOTHING` |
-
 
 ## Earning stats
 {% hint style="info" %}

@@ -2,7 +2,6 @@
 
 ## Introduction
 Skuddbot features a currency system, with support for multiple currencies. Currencies can be spent, gained or lost by users.
-At the moment we have only one, but there are definetly more to come! 
 
 ## Available currencies
 | Currency name | Technical Name | Used for              | Leaderboard? | Editable? |
@@ -11,9 +10,11 @@ At the moment we have only one, but there are definetly more to come!
 
 ## Earning currencies
 Currently users can earn currency in the following ways:
-* [Claiming their daily bonus](/Systems/daily-bonus.md).
+* [Claiming their daily bonus](/Systems/daily-bonus.md)
+* [Participating in Free for All](/Minigames/free-for-all.md)
+* [Playing a game of Double or Nothing](/Minigames/double-or-nothing.md)
 
-## Commmands
+## Commands
 ### View and edit
 The command for viewing and editing an users currencies is `!currency`.   
 This command also listens to the following aliasses:

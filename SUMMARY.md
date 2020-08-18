@@ -3,9 +3,9 @@
 * [Skuddbot v2 wiki](README.md)
 * [Getting started](getting-started.md)
 * Commands
-    * [Useless commands](/Commands/useless-commands.md)
-    * [User info command](/Commands/user-info-command.md)
+    * [Action commands](/Commands/action-commands.md)
     * [Image commands](/Commands/image-commands.md)
+    * [User info command](/Commands/user-info-command.md)
 * Features
     * [Currencies](/Features/currencies.md)
     * [Server settings](/Features/server-settings.md)

@@ -1,7 +1,7 @@
 # Challenge
 
 {% hint style="warning" %}
-This page contains features that have not yet been released! Features mentioned on this page may not be final.
+This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
 {% endhint %}
 
 ## Introduction

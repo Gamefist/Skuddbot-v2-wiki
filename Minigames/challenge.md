@@ -66,11 +66,11 @@ After 5 seconds after the fight has been accepted, the results are revealed and 
 
 ## Rewards
 This game gives out the following rewards:
-| Action                           | Reward                                             |
-|----------------------------------|----------------------------------------------------|
-| Winning the game                 | +100xp, +50 Skuddbux, +1 win                       |
-| Winning multiple games in a row. | +50xp, +25 Skuddbux (multiplied by amount of wins) |
-| New highest winstreak            | Longest challenge winstreak updated                |
+| Action                          | Reward                                             |
+|---------------------------------|----------------------------------------------------|
+| Winning the game                | +100xp, +50 Skuddbux, +1 win                       |
+| Winning multiple games in a row | +50xp, +25 Skuddbux (multiplied by amount of wins) |
+| New highest winstreak           | Longest challenge winstreak updated                |
 
 ## Betting system
 Challenge features a betting system where you can bet Skuddbux on the user themself winning the fight. The bet amount is decided by the challenger and is agreed upon by the challenged. 

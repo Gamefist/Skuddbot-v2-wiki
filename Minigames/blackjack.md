@@ -1,1 +1,72 @@
 # Blackjack
+{% hint style="warning" %}
+* This page contains features that have not yet been released! Features mentioned on this page may not be final.
+* This article is under construction.
+{% endhint %}
+
+## Introduction
+In this minigame a user can play a game of Blackjack against a dealer.
+
+## Game rules
+* The goal of Blackjack is getting your hand value as close as possible to 21 without going over 21, and beating the dealer.
+* The cards 2 through 10 have the value of their rank. A jack, queen and king are each worth 10. And a ace is worth 11, unless it busts you, then it's worth 1.
+* The game is played with a single standard deck of 52 playing cards.
+* Blackjack is achieved by having a hand value of 21; a ace and either a 10, king, queen or jack.
+* Dealer draws to 16, stands on 17. - Dealer also stands on soft 17.
+* Winning pays 1 to 1, Blackjack pays 3 to 2, Push pays equal.
+
+## Game interface
+{% hint style="warning" %}
+This section is under construction.
+{% endhint %}
+
+On the top row of the game message the name of the user is shown who is playing this game.
+The second row shows the dealer hand and it's value. Two ![](https://i.imgur.com/RF1kUpc.png) emoji's represent the hole card.
+The third row shows the player's hand and it's value. When the user has two hands, the current hand being played is indicated by the ![](https://i.imgur.com/3pFjjWm.png) emoji.
+The cards are represented by two emoji's. For example  ![](https://i.imgur.com/30ClJ6w.png) ![](https://i.imgur.com/JW2EzbC.png) represents a club 4, and ![](https://i.imgur.com/xTgf808.png) ![](https://i.imgur.com/FQZwXq7.png) represents a hearts ace.
+The bottom row shows the current moves the player can make or if the dealer is playing.
+
+## Game flow
+### Starting a game
+To start a game the users types the command `!blackjack` optionally a user can specify a bet, when the user doesn't it will default to their `DEFAULT_BET` setting.
+
+#### Getting Blackjack
+When you get Blackjack, the game immediately ends and you win.
+
+{% hint style="info" %}
+* For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
+* For more information about the command, view the [commands](#commands) section.
+{% endhint %}
+
+### Making moves
+The user can choose from 4 different moves; hit, stand, double down or split. Not all moves are available all the time.
+
+#### Hitting
+The user can hit by clicking the ![](https://i.imgur.com/WGRpT3z.png) reaction. When the user hits, the dealer will deal another card to the user. The user can keep hitting until they get 21, when they will automatically stand, or when they bust, then they will lose.
+
+#### Standing
+The user can stand by clicking the ![](https://i.imgur.com/eACscH6.png) reaction. When the user stands, the user will not get another card and the dealer starts playing. If the user has two hands by splitting on the first turn, and they are on the first hand when standing, they continue playing with the second hand.
+
+#### Doubling down
+The user can double down by clicking the ![](https://i.imgur.com/oE4pdbJ.png) reaction. When the user double's down, they will double their bet and recieve one more card, after which they are forced to stand. 
+{% hint style="info" %}
+A user can only double down when: 
+* Their hand value is 10 or less.
+* When the hand contains exactly 2 cards.
+{% endhint %}
+
+#### Splitting
+The user can split by clicking the ![](https://i.imgur.com/oFRcWTJ.png) reaction. When the user splits, their two cards are divided into two hands and they will recieve another card in each hand and their bet is doubled. After which they can continue playing as normal. The current hand being played is indicated by the ![](https://i.imgur.com/3pFjjWm.png) emoji.
+{% hint style="info" %}
+A user can only split when:
+* The rank of their 2 cards are the same.
+* When they have only one hand.
+{% endhint %}
+
+## Stats
+
+## Rewards
+
+
+
+## Command

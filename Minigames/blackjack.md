@@ -1,7 +1,6 @@
 # Blackjack
 {% hint style="warning" %}
-* This page contains features that have not yet been released! Features mentioned on this page may not be final.
-* This article is under construction.
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
 {% endhint %}
 
 ## Introduction
@@ -72,9 +71,48 @@ A user can only split when:
 | 21's        | `BJ_TWENTY_ONES` | The amount of 21's the user has gotten in Blackjack.   | When the user has a hand with the value 21 in Blackjack. |
 | Blackjack's | `BJ_BLACKJACKS`  | The amount of blackjacks the user has gotten.          | When the user has Blackjack in Blackjack.                |
 
-
 ## Rewards
+| Action                                  | Reward                                     |
+|-----------------------------------------|--------------------------------------------|
+| Getting Blackjack                       | +150xp, +1 Blackjack, bet pays 3 to 2      |
+| Ending the game with a hand value of 21 | +100xp, +1 21, bet pays 1 to 1             |
+| Winning from the dealer                 | +75xp, + 1 win, bet pays 1 to 1            |
+| Tied with the dealer                    | +50xp, + 1 push, bet pays equal            |
+| Winning a doubled down hand             | All XP rewards doubled, bet payout doubled |
 
+{% hint style="info" %}
+* A user will get all XP rewards from lower outcomes. For example: A user ends the game with a hand value of 21, the user gains 225xp (100 + 75 + 50).
+* The user will also get a win added to their stats if they get a 21 or Blackjack.
+* These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
+{% endhint %}
 
+## Cooldown
+This game ahs a 1 minute cooldown period, starting when the game ends.
 
 ## Command
+The command for Blackjack is `!blackjack`.  
+This command also listens to the following aliases:
+* `!bj`
+* `!21`
+* `!deal`
+
+#### Command parameters
+| Parameter | Type   | Description                                                                                   | Required                             |
+|-----------|--------|-----------------------------------------------------------------------------------------------|--------------------------------------|
+| Bet       | Number | Defines the bet that the user wants to place. - Defaults to the user's `DEFAULT_BET` setting. | ![](https://i.imgur.com/n2UfbMz.png) |
+
+#### Command examples
+| Example          | Action                                                                           | Response                 |
+|------------------|----------------------------------------------------------------------------------|--------------------------|
+| `!blackjack`     | Starts a new game of Blackjack with the user's `DEFAULT_BET` setting as the bet. | A new game of Blackjack. |
+| `!blackjack 100` | Starts a new game of Blackjack with 100 Skuddbux as the bet.                     | A new game of Blackjack. |
+
+{% hint style="info" %}
+For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
+{% endhint %}
+
+#### Permission requirements
+This command requires no permissions.
+{% hint style="info" %}
+For more information about permissions, view the [Permissions](/Systems/permissions.md) article.
+{% endhint %}

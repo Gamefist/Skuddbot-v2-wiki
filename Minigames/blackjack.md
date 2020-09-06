@@ -20,10 +20,10 @@ In this minigame a user can play a game of Blackjack against a dealer.
 This section is under construction.
 {% endhint %}
 
-On the top row of the game message the name of the user is shown who is playing this game.
-The second row shows the dealer hand and it's value. Two ![](https://i.imgur.com/RF1kUpc.png) emoji's represent the hole card.
-The third row shows the player's hand and it's value. When the user has two hands, the current hand being played is indicated by the ![](https://i.imgur.com/3pFjjWm.png) emoji.
-The cards are represented by two emoji's. For example  ![](https://i.imgur.com/30ClJ6w.png) ![](https://i.imgur.com/JW2EzbC.png) represents a club 4, and ![](https://i.imgur.com/xTgf808.png) ![](https://i.imgur.com/FQZwXq7.png) represents a hearts ace.
+On the top row of the game message the name of the user is shown who is playing this game.  
+The second row shows the dealer hand and it's value. Two ![](https://i.imgur.com/RF1kUpc.png) emoji's represent the hole card.  
+The third row shows the player's hand and it's value. When the user has two hands, the current hand being played is indicated by the ![](https://i.imgur.com/3pFjjWm.png) emoji.  
+The cards are represented by two emoji's. For example  ![](https://i.imgur.com/30ClJ6w.png) ![](https://i.imgur.com/JW2EzbC.png) represents a club 4, and ![](https://i.imgur.com/xTgf808.png) ![](https://i.imgur.com/FQZwXq7.png) represents a hearts ace.  
 The bottom row shows the current moves the player can make or if the dealer is playing.
 
 ## Game flow
@@ -64,6 +64,14 @@ A user can only split when:
 {% endhint %}
 
 ## Stats
+| Stat        | Technical Name   | Tracks                                                 | Awarded                                                  |
+|-------------|------------------|--------------------------------------------------------|----------------------------------------------------------|
+| Wins        | `BJ_WINS`        | The amount of wins the user has gotten in Blackjack .  | When the user wins a hand in Blackjack.                  |
+| Losses      | `BJ_LOSSES`      | The amount of losses the user has gotten in Blackjack. | When the user loses a hand in Blackjack.                 |
+| Pushses     | `BJ_PUSHES`      | The amount of pushes the user has gotten in Blackjack. | When the user ties a hand in Blackjack.                  |
+| 21's        | `BJ_TWENTY_ONES` | The amount of 21's the user has gotten in Blackjack.   | When the user has a hand with the value 21 in Blackjack. |
+| Blackjack's | `BJ_BLACKJACKS`  | The amount of blackjacks the user has gotten.          | When the user has Blackjack in Blackjack.                |
+
 
 ## Rewards
 

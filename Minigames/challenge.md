@@ -34,7 +34,7 @@ A user can accept a fight by using the `!challenge <mention>` command, where the
 A user can accept a fight by clicking the ![](https://i.imgur.com/yp4rWf2.png) reaction, on a challenge that either is for them or is a open challenge.
 
 ### Declining a fight
-{% hint style="info" %}
+{% hint style="danger" %}
 A open fight cannot be declined.
 {% endhint %}
 

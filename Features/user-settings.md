@@ -52,6 +52,8 @@ This currently applies to the following minigames:
 This setting defines what the bet of the user will be when they don't specify a bet when starting the minigame. This setting currently applies to the following minigames:
 * [Double or Nothing](/Minigames/double-or-nothing.md)
 * [Free for All](/Minigames/free-for-all.md)
+* [Challenge](/Minigames/challenge.md)
+* [Blackjack](/Minigames/blackjack.md)
 
 ## Command
 The command for viewing and editing user settings is: `!usersettings`.   

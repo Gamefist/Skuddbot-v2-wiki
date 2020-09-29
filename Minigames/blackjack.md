@@ -72,16 +72,15 @@ A user can only split when:
 | Blackjack's | `BJ_BLACKJACKS`  | The amount of blackjacks the user has gotten.          | When the user has Blackjack in Blackjack.                |
 
 ## Rewards
-| Action                                  | Reward                                     |
-|-----------------------------------------|--------------------------------------------|
-| Getting Blackjack                       | +150xp, +1 Blackjack, bet pays 3 to 2      |
-| Ending the game with a hand value of 21 | +100xp, +1 21, bet pays 1 to 1             |
-| Winning from the dealer                 | +75xp, + 1 win, bet pays 1 to 1            |
-| Tied with the dealer                    | +50xp, + 1 push, bet pays equal            |
-| Winning a doubled down hand             | All XP rewards doubled, bet payout doubled |
-
+| Action                       | Reward                                               |
+|------------------------------|------------------------------------------------------|
+| Getting Blackjack            | +350xp, +1 Blackjack, +1 21, +1 win, bet pays 3 to 2 |
+| Winning with 21              | +225xp, +1 21, +1 win, bet pays 1 to 1               |
+| Winning from the dealer      | +150xp, +1 win, bet pays 1 to 1                      |
+| Tied with the dealer with 21 | +100xp, +1 push, +1 21, bet pays equal               |
+| Tied with the dealer         | +50xp, + 1 push, bet pays equal                      |
+| Winning a doubled down hand  | Double XP, payout follows outcome                    |
 {% hint style="info" %}
-* A user will get all XP rewards from lower outcomes. For example: A user ends the game with a hand value of 21, the user gains 225xp (100 + 75 + 50).
 * The user will also get a win added to their stats if they get a 21 or Blackjack.
 * These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
 {% endhint %}

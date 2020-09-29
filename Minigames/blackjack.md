@@ -79,7 +79,7 @@ A user can only split when:
 | Winning from the dealer      | +150xp, +1 win, bet pays 1 to 1                      |
 | Tied with the dealer with 21 | +100xp, +1 push, +1 21, bet pays equal               |
 | Tied with the dealer         | +50xp, + 1 push, bet pays equal                      |
-| Winning a doubled down hand  | Double XP, payout follows outcome                    |
+| Winning a doubled down hand  | Double XP, bet payout follows outcome                |
 {% hint style="info" %}
 These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
 {% endhint %}

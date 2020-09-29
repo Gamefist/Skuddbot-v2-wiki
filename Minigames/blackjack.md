@@ -81,8 +81,7 @@ A user can only split when:
 | Tied with the dealer         | +50xp, + 1 push, bet pays equal                      |
 | Winning a doubled down hand  | Double XP, payout follows outcome                    |
 {% hint style="info" %}
-* The user will also get a win added to their stats if they get a 21 or Blackjack.
-* These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
+These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
 {% endhint %}
 
 ## Cooldown

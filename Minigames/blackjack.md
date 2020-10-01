@@ -63,23 +63,26 @@ A user can only split when:
 {% endhint %}
 
 ## Stats
-| Stat        | Technical Name   | Tracks                                                 | Awarded                                                  |
-|-------------|------------------|--------------------------------------------------------|----------------------------------------------------------|
-| Wins        | `BJ_WINS`        | The amount of wins the user has gotten in Blackjack .  | When the user wins a hand in Blackjack.                  |
-| Losses      | `BJ_LOSSES`      | The amount of losses the user has gotten in Blackjack. | When the user loses a hand in Blackjack.                 |
-| Pushses     | `BJ_PUSHES`      | The amount of pushes the user has gotten in Blackjack. | When the user ties a hand in Blackjack.                  |
-| 21's        | `BJ_TWENTY_ONES` | The amount of 21's the user has gotten in Blackjack.   | When the user has a hand with the value 21 in Blackjack. |
-| Blackjack's | `BJ_BLACKJACKS`  | The amount of blackjacks the user has gotten.          | When the user has Blackjack in Blackjack.                |
+| Stat                | Technical Name   | Tracks                                                             | Awarded                                                  |
+|---------------------|------------------|--------------------------------------------------------------------|----------------------------------------------------------|
+| Wins                | `BJ_WINS`        | The amount of hands the user has won in Blackjack .                | When the user wins a hand in Blackjack.                  |
+| Losses              | `BJ_LOSSES`      | The amount of hands the user has lost in Blackjack.                | When the user loses a hand in Blackjack.                 |
+| Pushses             | `BJ_PUSHES`      | The amount of hands the user has pushed in Blackjack.              | When the user ties a hand in Blackjack.                  |
+| 21's                | `BJ_TWENTY_ONES` | The amount of 21's the user has gotten in Blackjack.               | When the user has a hand with the value 21 in Blackjack. |
+| Blackjack's         | `BJ_BLACKJACKS`  | The amount of blackjacks the user has gotten.                      | When the user has Blackjack in Blackjack.                |
+| Double Down Wins    | `BJ_DD_WINS`     | The amount of doubled down hands the user has won in Blackjack.    | When the user has won a doubled down hand in Blackjack.  |
+| Double Down Pushes  | `BJ_DD_PUSHES`   | The amount of doubled down hands the user has pushed in Blackjack. | When the user pushes a doubled down hand in Blackjack.   |
+| Doubled Down Losses | `BJ_DD_LOSSES`   | The amount of doubled down hands the user has lost in Blackjack.   | When the user has lost a doubled down hand in Blackjack. |
 
 ## Rewards
-| Action                       | Reward                                               |
-|------------------------------|------------------------------------------------------|
-| Getting Blackjack            | +350xp, +1 Blackjack, +1 21, +1 win, bet pays 3 to 2 |
-| Winning with 21              | +225xp, +1 21, +1 win, bet pays 1 to 1               |
-| Winning from the dealer      | +150xp, +1 win, bet pays 1 to 1                      |
-| Tied with the dealer with 21 | +100xp, +1 push, +1 21, bet pays equal               |
-| Tied with the dealer         | +50xp, + 1 push, bet pays equal                      |
-| Winning a doubled down hand  | Double XP, bet payout follows outcome                |
+| Action                       | Reward                                                    |
+|------------------------------|-----------------------------------------------------------|
+| Getting Blackjack            | +350xp, +1 Blackjack, +1 21, +1 win, bet pays 3 to 2      |
+| Winning with 21              | +225xp, +1 21, +1 win, bet pays 1 to 1                    |
+| Winning from the dealer      | +150xp, +1 win, bet pays 1 to 1                           |
+| Tied with the dealer with 21 | +100xp, +1 push, +1 21, bet pays equal                    |
+| Tied with the dealer         | +50xp, + 1 push, bet pays equal                           |
+| Winning a doubled down hand  | Double XP, +1 double down win, bet payout follows outcome |
 {% hint style="info" %}
 These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
 {% endhint %}

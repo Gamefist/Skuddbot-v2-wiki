@@ -20,26 +20,26 @@ In this minigame a user can play a game of Blackjack against a dealer.
 The cards are represented by two emoji's. For example;  ![](https://i.imgur.com/30ClJ6w.png) ![](https://i.imgur.com/JW2EzbC.png) represents a club 4, and ![](https://i.imgur.com/xTgf808.png) ![](https://i.imgur.com/FQZwXq7.png) represents a hearts ace.  
 
 ### Normal hand
-![](https://i.imgur.com/d9n2qkf.png)
-1. Nickname of the user playing this game.
-2. Hand value of the dealer
-3. Cards in dealer hand. - Hole card is represented by two ![](https://i.imgur.com/RF1kUpc.png) emoji's.
-4. Hand value of the player.
-5. Bet of the player.
-6. Cards in player hand.
-7. Playing instructions. - This section also shows the current state of the game.
-8. Reactions. The user clicks these to make their move.
+![](https://i.imgur.com/d9n2qkf.png)  
+1. Nickname of the user playing this game.  
+2. Hand value of the dealer  
+3. Cards in dealer hand. - Hole card is represented by two ![](https://i.imgur.com/RF1kUpc.png) emoji's.  
+4. Hand value of the player.  
+5. Bet of the player.  
+6. Cards in player hand.  
+7. Playing instructions. - This section also shows the current state of the game.  
+8. Reactions. The user clicks these to make their move.  
 
 ### Split hand
-![](https://i.imgur.com/Lxojyvk.png)
-1. Nickname of the user playing this game.
-2. Hand value of the dealer
-3. Dealer cards. - Hole card is represented by two ![](https://i.imgur.com/RF1kUpc.png) emoji's.
-4. Hand values of the player. - First number represents the first hand, second number the second hand.
-5. Bets of the player. - First number represents the first hand, second number the second hand.
-6. Current hand indicator. - This arrow points at the hand the user is currently playing.
-7. Player cards.
-8. Playing instructions. - This section also shows the current state of the game.
+![](https://i.imgur.com/Lxojyvk.png)  
+1. Nickname of the user playing this game.  
+2. Hand value of the dealer  
+3. Dealer cards. - Hole card is represented by two ![](https://i.imgur.com/RF1kUpc.png) emoji's.  
+4. Hand values of the player. - First number represents the first hand, second number the second hand.  
+5. Bets of the player. - First number represents the first hand, second number the second hand.  
+6. Current hand indicator. - This arrow points at the hand the user is currently playing.  
+7. Player cards.  
+8. Playing instructions. - This section also shows the current state of the game.  
 9. Reactions. The user clicks these to make their move.
 
 ## Game flow

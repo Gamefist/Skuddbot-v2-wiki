@@ -1,4 +1,8 @@
 # Double or Nothing
+{% hint style="warning" %}
+This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
+{% endhint %}
+
 ## Introduction
 Double or Nothing is a minigame where users can bet their Skuddbux, and continuously double it or choose to bank the money. When a user chooses to double, there's a 50% chance it will double, if it doesn't double, the user looses everything.
 

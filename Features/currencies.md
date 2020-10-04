@@ -13,6 +13,8 @@ Currently users can earn currency in the following ways:
 * [Claiming their daily bonus](/Systems/daily-bonus.md)
 * [Participating in Free for All](/Minigames/free-for-all.md)
 * [Playing a game of Double or Nothing](/Minigames/double-or-nothing.md)
+* [Playing a game of Challenge](/Minigames/challenge.md)
+* [Playing a game of Blackjack](/Minigames/blackjack.md)
 
 ## Commands
 ### View and edit

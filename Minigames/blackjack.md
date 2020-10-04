@@ -15,7 +15,6 @@ In this minigame a user can play a game of Blackjack against a dealer.
 * Winning pays 1 to 1, Blackjack pays 3 to 2, Push pays equal.
 
 ## Game interface
-
 ### Card reprensentation
 The cards are represented by two emoji's. For example;  ![](https://i.imgur.com/30ClJ6w.png) ![](https://i.imgur.com/JW2EzbC.png) represents a club 4, and ![](https://i.imgur.com/xTgf808.png) ![](https://i.imgur.com/FQZwXq7.png) represents a hearts ace.  
 
@@ -104,8 +103,14 @@ A user can only split when:
 These rewards are awarded per hand. If a user wins both hands, you they get 2 wins.
 {% endhint %}
 
+## Jackpot
+When the user loses, their bets will be added to the jackpot.
+{% hint style="info" %}
+For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
+{% endhint %}
+
 ## Cooldown
-This game ahs a 1 minute cooldown period, starting when the game ends.
+This game has a 1 minute cooldown period, starting when the game ends.
 
 ## Command
 The command for Blackjack is `!blackjack`.  

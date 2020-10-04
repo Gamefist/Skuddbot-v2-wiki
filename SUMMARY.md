@@ -22,6 +22,7 @@
 * Systems
     * [Daily bonus](/Systems/daily-bonus.md)
     * [Experience](/Systems/experience.md)
+    * [Jackpot](/Systems/jackpot.md)
     * [Permissions](/Systems/permissions.md)
 * [I need help](/Help/i-need-help.md)
   * [Contact](/Help/contact.md)

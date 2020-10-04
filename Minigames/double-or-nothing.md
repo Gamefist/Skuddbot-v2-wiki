@@ -44,6 +44,12 @@ For more information about stats, view the [stats](/Features/stats.md) article.
 When the user rolls nothing, no rewards will be awarded.
 When the user chooses to take the money, they will gain the amount of money they racked up, and a experience reward of 50xp for every double up they managed to get successfully.
 
+## Jackpot
+When the user rolls nothing, their initial bet will be added to the Jackpot.
+{% hint style="info" %}
+For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
+{% endhint %}
+
 ## Command
 The command for Double or Nothing is `!doubleornothing`.  
 This command also listens to the following alias:

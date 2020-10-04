@@ -76,6 +76,12 @@ Stats on winning/losing bets are being tracked.
 * For more information on stats, view the [stats](#stats) section.
 {% endhint %}
 
+### Jackpot
+When the user that wins, hasn't betted, all bets will be added to the Jackpot.
+{% hint style="info" %}
+For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
+{% endhint %}
+
 ## Reminders and Auto-starting
 Every 6 hours the host will be reminded of a outstanding game via a DM, but only if the following conditions are met:
 * The game has atleast 3 entrants,.

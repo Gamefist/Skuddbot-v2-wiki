@@ -30,6 +30,7 @@ Skuddbot features an server settings. This allows server owners to change parts 
 | [Daily experience bonus](#daily-bonus)                                                    | `DAILY_EXPERIENCE_BONUS`  | Defines the base amount of the daily experience bonus.                             | Number                    | 250                  |
 | [Daily bonus multiplier](#daily-bonus)                                                    | `DAILY_BONUS_MULTIPLIER`  | Defines the mulitplier of the daily bonus amounts.                                 | Number with decimal place | 1.05                 |
 | [Daily bonus cap](#daily-bonus)                                                           | `DAILY_BONUS_CAP`         | Defines after how many days the multiplier will cap out.                           | Number                    | 30                   |
+| [Jackpot](/Systems/jackpot.md)                                                            | `JACKPOT`                 | Defines the Jackpot amount.                                                        | Number                    | 0                    |
 
 ## Setting details
 ### Experience settings

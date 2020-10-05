@@ -74,8 +74,9 @@ A user can only double down when:
 The user can split by clicking the ![](https://i.imgur.com/oFRcWTJ.png) reaction. When the user splits, their two cards are divided into two hands and they will recieve another card in each hand and their bet is doubled. After which they can continue playing as normal. The current hand being played is indicated by the ![](https://i.imgur.com/3pFjjWm.png) emoji.
 {% hint style="info" %}
 A user can only split when:
-* The rank of their 2 cards are the same.
 * When they have only one hand.
+* They have exactly two  cards.
+* The rank of the two cards are the same **OR** they are both face cards.
 {% endhint %}
 
 ## Stats

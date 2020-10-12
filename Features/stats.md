@@ -1,4 +1,9 @@
 # Stats
+
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
 ## Introduction
 Skuddbot features a stats system, where all kinds of statistics about the user are tracked. Users can build up their statistics by chatting and playing minigames.
 
@@ -58,19 +63,12 @@ For information on how to earn stats please refer to the article of the minigame
 ## Commands
 ### View and edit
 The command for viewing and editing stats is `!stats`.
-{% hint style="danger" %}
-This command has a strict arguments policy, meaning you have to type it with exactly 1, 2 or 4 arguments or it will result in a immediate error.
-{% endhint %}
-{% hint style="info" %}
-I am aware that this command is a bit complicated, this is because I am nearing the limit of messages/embeds with this command. If you have any better idea of making this command less complicated, please [let me know](/Help/contact.md)!
-{% endhint %}
 
 #### Command parameters
 ##### Viewing
-| Parameter         | Type             | Description                                                                                                                                                                | Required? |
-|-------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Category / List   | String           | Specifies the category to be shown. - Is automatically set to upper case and dashes `(-)` are replaced by underscores `(_)`. - Can be `list` to view all categories/stats. | Yes       |
-| User ID / Mention | Number / Mention | Specifies the user to be shown, defaults to the user running the command.                                                                                                  | No        |
+| Parameter         | Type             | Description                                                               | Required? |
+|-------------------|------------------|---------------------------------------------------------------------------|-----------|
+| User ID / Mention | Number / Mention | Specifies the user to be shown, defaults to the user running the command. | No        |
 
 ##### Editing
 | Parameter          | Type             | Description                                                                                                                            | Required? |
@@ -82,11 +80,11 @@ I am aware that this command is a bit complicated, this is because I am nearing 
 
 #### Command examples
 ##### Viewing
-| Example                               | Action                                                               | Response                                                              |
-|---------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| `!stats CHALLENGE`                    | Simplest form, shows the user's own stats in the Challenge category. | Embed with the user's own stats in the Challenge category.            |
-| `!stats CHALLENGE @MyNameIsDave#0001` | Shows the stats in the Challenge category of user MyNameIsDave#0001. | Embed with stats in the Challenge category of user MyNameIsDave#0001. |
-| `!stats CHALLENGE 01234`              | Shows stats in the Challenge category the user with ID 01234.        | Embed with stats in the Challenge category of the user with ID 01234. |
+| Example                     | Action                                     | Response                                        |
+|-----------------------------|--------------------------------------------|-------------------------------------------------|
+| `!stats`                    | Simplest form, shows the user's own stats. | Embed with the user's own stats.                |
+| `!stats @MyNameIsDave#0001` | Shows the stats of user MyNameIsDave#0001. | Embed with the stats of user MyNameIsDave#0001. |
+| `!stats 01234`              | Shows stats of the user with ID 01234.     | Embed with the stats of the user with ID 01234. |
 
 ##### Editing
 | Example                                         | Action                                                             | Response                   |
@@ -94,6 +92,7 @@ I am aware that this command is a bit complicated, this is because I am nearing 
 | `!stats @MyNameIsDave#0001 FFA_WINS add 10`     | Adds 10 to the FFA_WINS stat of user MyNameIsDave#0001.            | ✅ reaction to the message  |
 | `!stats 01234 CHALLENGE_WINS remove 10`         | Removes 10 from the CHALLENGE_WINS stat of the user with id 01234. | ✅ reaction to the message. |
 | `!currency @MyNameIsDave#0001 BJ_LOSSES set 10` | Sets the BJ_LOSSES stat of user MyNameIsDave#0001 to 10.           | ✅ reaction to the message. |
+
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}
@@ -105,10 +104,17 @@ Reactions can be clicked to get a more detailed response.
 | Viewing someone else's stats.                                     | No permissions required |
 | Viewing someone else's stats, who has made their profile private. | Server Admin            |
 | Editing your own, or someone else's stats.                        | Server Admin            |
+
 {% hint style="info" %}
 * For more information on permissions, view the [Permissions](/Systems/permissions.md) article.  
 * For more information about making your profile private, view the [profile private user setting](user-settings.md#profile-private) in the [User Settings](user-settings.md) article.
 {% endhint %}
+
+#### Pages while viewing
+The stats command makes use of pages while viewing all stats. You may use the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions to navigate between pages. You can use the ![](https://i.imgur.com/yIDl5mz.png) reaction to refresh the page.
+
+##### Paging logic
+The pages are divided into the categories as they are described in the [categories](#categories) section. Unless a category has more than 25 stats, then that category will be divided into multiple pages.
 
 ### Leaderboards
 The command for viewing stat leaderboards is: `!statleaderboard`.
@@ -122,10 +128,10 @@ This command also listens to the following aliases:
 | Stat / List | String | This parameter takes a technical name of a stat. - Can also be `list` to list all avaiable stats. | No        |
 
 #### Command examples
-| Example                         | Action                                                  | Response                                 |
-|---------------------------------|---------------------------------------------------------|------------------------------------------|
-| `!statleaderboard CHALLENGE_WINS` | Shows the CHALLENGE_WINS currency leaderboard.                | A message with the CHALLENGE_WINS leaderboard. |
-| `!statleaderboard list`     | Lists the available stats.                         | A message with the available stats. |
+| Example                           | Action                                         | Response                                       |
+|-----------------------------------|------------------------------------------------|------------------------------------------------|
+| `!statleaderboard CHALLENGE_WINS` | Shows the CHALLENGE_WINS currency leaderboard. | A message with the CHALLENGE_WINS leaderboard. |
+| `!statleaderboard list`           | Lists the available stats.                     | A message with the available stats.            |
 
 #### Command permissions
 This command requires no permissions.

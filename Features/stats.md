@@ -114,7 +114,7 @@ Reactions can be clicked to get a more detailed response.
 The stats command makes use of pages while viewing all stats. You may use the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions to navigate between pages. You can use the ![](https://i.imgur.com/yIDl5mz.png) reaction to refresh the page.
 
 ##### Paging logic
-The pages are divided into the categories as they are described in the [categories](#categories) section. Unless a category has more than 25 stats, then that category will be divided into multiple pages.
+The pages are divided into the categories as they are described in the [categories](#categories) section. Categories will be merged into 1 page if they don't exceed trhe limit of 21. Categories are not split, unless a category has more than 21 stats, then that category will be divided into multiple pages.
 
 ### Leaderboards
 The command for viewing stat leaderboards is: `!statleaderboard`.

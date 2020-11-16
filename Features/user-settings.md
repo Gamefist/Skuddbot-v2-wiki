@@ -5,14 +5,15 @@ Skuddbot features an user settings system. This allows to change parts of Skuddb
 Settings are saved on a per-server-basis, so it is possible for users to have settings set to different values in different servers.
 
 ## Available settings
-| Setting Name                                    | Technical Name       | Short Description                                       | Value Type | Default Value |
-|-------------------------------------------------|----------------------|---------------------------------------------------------|------------|---------------|
-| [Level up notification](#level-up-notification) | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.           | String     | REACTION      |
-| [Tracking enabled](#track-me)                   | `TRACK_ME`           | Defines if the bot will track your statistics.          | Boolean    | true          |
-| [Profile private](#profile-private)             | `PROFILE_PRIVATE`    | Defines if your profile is private.                     | Boolean    | false         |
-| [Mention me](#mention-me)                       | `MENTION_ME`         | Defines if you are mentioned in useless commands.       | Boolean    | false         |
-| [Minigame reminders](#minigame-reminders)       | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames | Boolean    | true          |
-| [Default bet](#default-bet)                     | `DEFAULT_BET`        | Defines the default bet used in various minigames.      | Number     | 50            |
+| Setting Name                                    | Technical Name       | Short Description                                                 | Value Type | Default Value | Cooldown |
+|-------------------------------------------------|----------------------|-------------------------------------------------------------------|------------|---------------|----------|
+| [Level up notification](#level-up-notification) | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.                     | String     | REACTION      | None     |
+| [Tracking enabled](#track-me)                   | `TRACK_ME`           | Defines if the bot will track your statistics.                    | Boolean    | true          | None     |
+| [Profile private](#profile-private)             | `PROFILE_PRIVATE`    | Defines if your profile is private.                               | Boolean    | false         | None     |
+| [Mention me](#mention-me)                       | `MENTION_ME`         | Defines if you are mentioned in useless commands.                 | Boolean    | false         | None     |
+| [Minigame reminders](#minigame-reminders)       | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames           | Boolean    | true          | None     |
+| [Default bet](#default-bet)                     | `DEFAULT_BET`        | Defines the default bet used in various minigames.                | Number     | 50            | None     |
+| [Timezone](#timezone)                           | `TIMEZONE`           | Defines your timezone, to offset different time based activities. | Number     | 0             | 24 hours |
 
 ## Setting details
 ### Level up notification
@@ -54,6 +55,15 @@ This setting defines what the bet of the user will be when they don't specify a 
 * [Free for All](/Minigames/free-for-all.md)
 * [Challenge](/Minigames/challenge.md)
 * [Blackjack](/Minigames/blackjack.md)
+
+### Timezone
+The user can define their timezone to offset certain time based activities to their timezone. This setting only takes values between -12 and +12. This setting can also only be changed once every 24 hours.
+This setting currently applies to the following activities:
+* [Daily bonus](/Systems/daily-bonus.md)
+
+{% hint style="warning" %}
+When changing this setting, enter negative numbers as `-12` and positive numbers as `12` (no plus sign).
+{% endhint %}
 
 ## Command
 The command for viewing and editing user settings is: `!usersettings`.   

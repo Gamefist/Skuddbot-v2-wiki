@@ -1,4 +1,9 @@
 # Daily bonus
+
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
 ## Introduction
 Users can claim a bonus of experience and currency each day. Bonuses scale exponentially if an user can upkeep their streak for claiming their bonus every day.
 
@@ -30,18 +35,28 @@ For more information about [controlling bonus amounts](/Features/server-settings
 When a user has reached their cap, their bonus will no longer increase. But when they have hit their cap, they will be eligible for a weekly bonus. Once a week (every 7th day), the user will receive double their normal bonus. 
 The user does not need to do anything to get the bonus, if it is the 7th day and the user claims their daily bonus, the weekly bonus is automatically applied.
 
-## Timer reset
-A user can claim their bonus once a day. However the system does not make use of a 24 hour timer, but all users will be reset at once at a fixed time every day. The timer resets at 12AM UTC.
+#### Ineligble for weekly bonus
+A user can be ineligble for the weekly bonus, this is due to a cooldown on the weekly bonus, this can happen when the user has missed a day of claiming. The cooldown is 7 days.
+
+## Cutoff point and offset
+You can claim your bonus once per day. By default, a day is from midnight UTC until 23:59:59 UTC. This means the cutoff is, by default, at midnight UTC.
+
+### Offset
+A user can offset their cutoff point by 12 hours in either direction (-12 and +12). This is done using the `TIMEZONE` user setting. To figure out what your offset is, you can use the list of timezones on [timeanddate.com](https://www.timeanddate.com/time/zones/). Find your timezone in the table and see your offset in the right-most colum.
+{% hint style="warning" %}
+* Half hour offsets are not supported.
+* When setting your offset using the `!usersettings` command, enter negative numbers as `-12` and positive numbers as `12` (no plus sign).
+{% endhint %}
 {% hint style="info" %}
-To see what the current time in UTC is, please go to [timeanddate.com](https://www.timeanddate.com/worldclock/timezone/utc). 
+For more information about user settings, view the [User settings](/Features/user-settings.md) article.
 {% endhint %}
 
 ## Streaks
 ### Continuing and building a streak
-To upkeep a streak, a user must claim their bonus on consecutive days. 
+To upkeep a streak, a user must claim their bonus on consecutive days, before the cutoff point.
 
 ### Losing a streak
-A streak is lost, when a user has a unclaimed bonus when the timer resets.
+Users can lose their streak when they do not claim their streaks on consecutive day. A penalty of 5 days is incurred for every day the user has missed.
 
 ### Viewing a streak
 Streaks are recorded in the stats of a user, and can be viewed using the `!stats` command.

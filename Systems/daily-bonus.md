@@ -42,7 +42,10 @@ A user can be ineligble for the weekly bonus, this is due to a cooldown on the w
 You can claim your bonus once per day. By default, a day is from midnight UTC until 23:59:59 UTC. This means the cutoff is, by default, at midnight UTC.
 
 ### Offset
-A user can offset their cutoff point by 12 hours in either direction (-12 and +12). This is done using the `TIMEZONE` user setting. To figure out what your offset is, you can use the list of timezones on [timeanddate.com](https://www.timeanddate.com/time/zones/). Find your timezone in the table and see your offset in the right-most colum.
+A user can offset their cutoff point by 12 hours in either direction (-12 and +12). This is done using the `TIMEZONE` user setting.
+{% hint style="success" %}
+To figure out what your offset is, you can use the list of timezones on [timeanddate.com](https://www.timeanddate.com/time/zones/). Find your timezone in the table and see your offset in the right-most colum.
+{% endhint %}
 {% hint style="warning" %}
 * Half hour offsets are not supported.
 * When setting your offset using the `!usersettings` command, enter negative numbers as `-12` and positive numbers as `12` (no plus sign).

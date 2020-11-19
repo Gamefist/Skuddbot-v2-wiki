@@ -61,6 +61,9 @@ The user can define their timezone to offset certain time based activities to th
 This setting currently applies to the following activities:
 * [Daily bonus](/Systems/daily-bonus.md)
 
+{% hint style="success" %}
+To figure out what your offset is, you can use the list of timezones on [timeanddate.com](https://www.timeanddate.com/time/zones/). Find your timezone in the table and see your offset in the right-most colum.
+{% endhint %}
 {% hint style="warning" %}
 When changing this setting, enter negative numbers as `-12` and positive numbers as `12` (no plus sign).
 {% endhint %}

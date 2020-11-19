@@ -1,5 +1,9 @@
 # User settings
 
+{% hint style="warning" %}
+This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
+{% endhint %}
+
 ## Introduction
 Skuddbot features an user settings system. This allows to change parts of Skuddbot to their liking, and tailor their own experience with the bot.
 Settings are saved on a per-server-basis, so it is possible for users to have settings set to different values in different servers.

@@ -1,0 +1,20 @@
+# Help command
+
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
+## Introduction
+The help command shows all commands available to a user. It shows the command with the aliasses, a short description and a Wiki link if applicable.
+
+## Viewing server commands
+To view the commands available in a server a user types `!help` in the server they want to view, they will then be sent a DM in which they can view the commands available to them in that server.
+
+### Permissions
+They will only see commands they have permission for in that server, so it may be possible that they will see some commands in one server, while not seeing it in another.
+
+## Viewing DM commands
+To view the commands available in DM's, the user types `!help` in DM's with Skuddbot. Or they click the ![](https://i.imgur.com/juslF5H.png) reaction if they are viewing server commands.
+
+## Pages
+Users can navigate between pages in the help command using the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions.

@@ -21,7 +21,7 @@ Under normal circumstances there's no need for server admins to edit the Jackpot
 {% endhint %}
 
 ## What are voided Skuddbux?
-Voided Skuddbux are Skuddbux that are betted by users in minigames but not paid out. For example: A free for all with 3 entrants has 2 users betting and one doesn't, and the user that didn't bet. In this instance the bets from the other two users won't be paid out and will be added to the jackpot instead.
+Voided Skuddbux are Skuddbux that are betted by users in minigames but not paid out. For example: A free for all with 3 entrants has 2 users betting and one doesn't, and the user that didn't bet wins. In this instance the bets from the other two users won't be paid out and will be added to the jackpot instead.
 
 Skuddbux can be voided in the following Minigames:
 * [Blackjack](/Minigames/blackjack.md)

@@ -4,6 +4,7 @@
 * [Getting started](getting-started.md)
 * Commands
     * [Action commands](/Commands/action-commands.md)
+    * [Help command](/Commands/help-command.md)
     * [Image commands](/Commands/image-commands.md)
     * [User info command](/Commands/user-info-command.md)
 * Features

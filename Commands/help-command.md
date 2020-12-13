@@ -18,3 +18,8 @@ To view the commands available in DM's, the user types `!help` in DM's with Skud
 
 ## Pages
 Users can navigate between pages in the help command using the ![](https://i.imgur.com/3pFjjWm.png) and ![](https://i.imgur.com/DkZ1fXh.png) reactions.
+
+{% hint style="warning" %}
+* Due to limitations it is not possible for the bot to delete your reactions in a DM, therefore adding and removing a reaction has the same effect. 
+* Due to this same limitation, the reactions won't dissapear when the message expires. The pages will stop working after roughly 30 minutes, after this you will need to use the `!help` command again. 
+{% endhint %}

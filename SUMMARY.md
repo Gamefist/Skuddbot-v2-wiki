@@ -2,6 +2,7 @@
 
 * [Skuddbot v2 wiki](README.md)
 * [Getting started](getting-started.md)
+* [CHRISTMAS 2020 EVENT](christmas-2020.md)
 * Commands
     * [Action commands](/Commands/action-commands.md)
     * [Help command](/Commands/help-command.md)

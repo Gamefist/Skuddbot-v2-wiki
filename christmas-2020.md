@@ -10,11 +10,17 @@ By claiming your daily bonus each day you will also gain a ticket to enter the g
 * 2x €10,- giftcard of your choice
 
 ## FAQ
+### Who is eligble to enter the giveaway?
+Everyone can! This giveaway is open worldwide. 
+
 ### Do I need a claim streak to gain the extra Skuddbux, Experience and Tickets?
 No! Everyone is able to claim the Skuddbux, Experience and Tickets, regardless of their claim streak.
 
 ### On what days can I get the extra Skuddbux, Experience and Tickets?
 You can get it once per day on the 24th, 25th and 26th of December.
+
+### Will I still get my regular Skuddbux and Experience on these days and will my streak continue to grow?
+Yes, the 5k Skuddbux and 10k XP are an bonus on top of your normal bonus. You will also get your weekly, and your streak will continue to grow (or shrink) as normal.
 
 ### How do I claim my daily bonus?
 Check the [Daily Bonus](/Systems/daily-bonus.md) article for more information.
@@ -46,6 +52,9 @@ At the moment you can't, but you may choose to void your prize when I contact yo
 
 ### How many tickets do I have?
 Your ticket count is displayed in the `!currencies` command.
+
+### What happens to my tickets after the draw?
+They dissapear into void. Gone. Forever. (a long time)
 
 ### My question isn't listed.
 If you have any further questions, shoot me a message on Twitter (@Cooltimmetje) or DM me on Discord (Cooltimmetje#0001).

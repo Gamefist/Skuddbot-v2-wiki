@@ -1,5 +1,5 @@
 # Christmas 2020 event
-The year 2020 is almost over, and what a year it has been. But, 2020 is not going to end without the **FIRST EVER** seasonal Skuddbot event! On the 24th, 25th and 26th of December you can gain extra Skuddbux and Experience **AND** be entered to a giveaway for a giftcard of your choice!
+The year 2020 is almost over, and what a year it has been. But, 2020 is not going to end without the **FIRST EVER** seasonal Skuddbot event! On the 24th, 25th and 26th of December you can gain extra Skuddbux and Experience **AND** be entered to a giveaway for a gift card of your choice!
 
 ## Extra Skuddbux and Experience
 Did someone say 30.000 XP and 15.000 Skuddbux for free? Yes I did. Claim your daily bonus on the 24th, 25th and 26th to get a total bonus of 30k XP and 15k Skuddbux! It's that simple!
@@ -29,11 +29,11 @@ Check the [Daily Bonus](/Systems/daily-bonus.md) article for more information.
 No! Just having them is enough. You are automatically entered.
 
 ### Gift card of my choice? What do you mean?
-I mean you can pick what gift card you want of the value you won. For example; Steam, Playstation or XBOX. You may even choose a month (or 2) of Discord Nitro!
+I mean you can pick what gift card you want of the value you won. For example; Steam, Playstation or XBOX. You may even choose a month (or 2) of Discord Nitro!  
 The only exception is that I will need to be able to buy a gift card suitable for your region from the Netherlands, other than that, it's your pick!
 
 ### If I claim my bonuses in multiple servers, will my tickets add up?
-No, to keep it fair and fun for everyone you can only earn ticketrs in one server. The highest ticket count in any server will be the one used for the giveaway draw.
+No, to keep it fair and fun for everyone you can only earn tickets in one server. The highest ticket count in any server will be the one used for the giveaway draw.
 
 ### Can I win more than one prize?
 No, only one prize per user.

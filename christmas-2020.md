@@ -31,15 +31,17 @@ No! Just having them is enough. You are automatically entered.
 ### Gift card of my choice? What do you mean?
 I mean you can pick what gift card you want of the value you won. For example; Steam, Playstation or XBOX. You may even choose a month (or 2) of Discord Nitro!  
 The only exception is that I will need to be able to buy a gift card suitable for your region from the Netherlands, other than that, it's your pick!
+If we can't find you a suitable gift card, you may also choose a game for that value.
 
 ### If I claim my bonuses in multiple servers, will my tickets add up?
-No, to keep it fair and fun for everyone you can only earn tickets in one server. The highest ticket count in any server will be the one used for the giveaway draw.
+No they will not. You can earn ticket is in multiple servers, but only the highest ticket count will go towards your giveaway entries. This is to prevent users that are in more than one server with Skuddbot gaining an unfair advantage to those who are only in one server with Skuddbot.
+Example: You have 2 tickets in Server A, and 1 ticket in Server B. In this instance you will be entered with 2 tickets (those from Server A).
 
 ### Can I win more than one prize?
 No, only one prize per user.
 
 ### When is the draw?
-I will draw the winners on the 28th.
+I will draw the winners on the 28th of December.
 
 ### How do I know if I won?
 I will contact you through a Discord DM.

@@ -1,6 +1,8 @@
 # Christmas 2020 event
 The year 2020 is almost over, and what a year it has been. But, 2020 is not going to end without the **FIRST EVER** seasonal Skuddbot event! On the 24th, 25th and 26th of December you can gain extra Skuddbux and Experience **AND** be entered to a giveaway for a gift card or game of your choice!
 
+![](https://i.imgur.com/ZxAjq2L.png)
+
 ## Extra Skuddbux and Experience
 Did someone say 30.000 XP and 15.000 Skuddbux for free? Yes I did. Claim your daily bonus on the 24th, 25th and 26th to get a total bonus of 30k XP and 15k Skuddbux! It's that simple!
 

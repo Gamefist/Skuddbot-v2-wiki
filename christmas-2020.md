@@ -1,13 +1,13 @@
 # Christmas 2020 event
-The year 2020 is almost over, and what a year it has been. But, 2020 is not going to end without the **FIRST EVER** seasonal Skuddbot event! On the 24th, 25th and 26th of December you can gain extra Skuddbux and Experience **AND** be entered to a giveaway for a gift card of your choice!
+The year 2020 is almost over, and what a year it has been. But, 2020 is not going to end without the **FIRST EVER** seasonal Skuddbot event! On the 24th, 25th and 26th of December you can gain extra Skuddbux and Experience **AND** be entered to a giveaway for a gift card or game of your choice!
 
 ## Extra Skuddbux and Experience
 Did someone say 30.000 XP and 15.000 Skuddbux for free? Yes I did. Claim your daily bonus on the 24th, 25th and 26th to get a total bonus of 30k XP and 15k Skuddbux! It's that simple!
 
 ## Win a gift card of choice
 By claiming your daily bonus each day you will also gain a ticket to enter the giveaway. You can gain up to 3 tickets. The prizes of the giveway are:
-* 1x €20,- giftcard of your choice
-* 2x €10,- giftcard of your choice
+* 1x €20,- gift card or game of your choice
+* 2x €10,- gift card or game of your choice
 
 ## FAQ
 ### Who is eligble to enter the giveaway?
@@ -28,10 +28,10 @@ Check the [Daily Bonus](/Systems/daily-bonus.md) article for more information.
 ### Do I need to do anything with my tickets to enter the giveaway?
 No! Just having them is enough. You are automatically entered.
 
-### Gift card of my choice? What do you mean?
-I mean you can pick what gift card you want of the value you won. For example; Steam, Playstation or XBOX. You may even choose a month (or 2) of Discord Nitro!  
-The only exception is that I will need to be able to buy a gift card suitable for your region from the Netherlands, other than that, it's your pick!
-If we can't find you a suitable gift card, you may also choose a game for that value.
+### Gift card or game of my choice? What do you mean?
+You can either pick a gift card as your prize, this can be a Steam gift card, Playstation Gift card or XBOX gift card. You pick what you want! The only exception is that I will need to be able to buy a gift card suitable for your region from the Netherlands, other than that, it's your pick!
+You may also choose a game from Steam or CDKeys. A month of Discord Nitro is also among the picks! You can discuss this with me once you win!
+
 
 ### If I claim my bonuses in multiple servers, will my tickets add up?
 No they will not. You can earn ticket is in multiple servers, but only the highest ticket count will go towards your giveaway entries. This is to prevent users that are in more than one server with Skuddbot gaining an unfair advantage to those who are only in one server with Skuddbot.

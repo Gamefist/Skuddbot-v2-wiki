@@ -4,7 +4,7 @@ The year 2020 is almost over, and what a year it has been. But, 2020 is not goin
 ## Extra Skuddbux and Experience
 Did someone say 30.000 XP and 15.000 Skuddbux for free? Yes I did. Claim your daily bonus on the 24th, 25th and 26th to get a total bonus of 30k XP and 15k Skuddbux! It's that simple!
 
-## Win a gift card of choice
+## Win a gift card or game of your choice
 By claiming your daily bonus each day you will also gain a ticket to enter the giveaway. You can gain up to 3 tickets. The prizes of the giveway are:
 * 1x €20,- gift card or game of your choice
 * 2x €10,- gift card or game of your choice

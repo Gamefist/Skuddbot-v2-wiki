@@ -8,6 +8,8 @@
     * [Help command](/Commands/help-command.md)
     * [Image commands](/Commands/image-commands.md)
     * [User info command](/Commands/user-info-command.md)
+* Donator Perks
+    * [Message Database](/DonatorPerks/message-database.md)
 * Features
     * [Currencies](/Features/currencies.md)
     * [Server settings](/Features/server-settings.md)

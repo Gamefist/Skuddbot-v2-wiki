@@ -114,7 +114,7 @@ For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) 
 This game has a 1 minute cooldown period, starting when the game ends.
 
 ## Gender neutral playing cards
-Skuddbot has support for Gender neutral playing cards. Users can switch between the gender neutral playing cards and normal playing cards at any time they wish using the `GN_PLAYING_CARDS` user setting. When this setting is set to `true`, the suits, jack, queen and king are replaced by bronze, silver and gold.
+Skuddbot has support for Gender neutral playing cards. Users can switch between the gender neutral playing cards and normal playing cards at any time they wish using the `GN_PLAYING_CARDS` user setting. When this setting is set to `true`, the ranks, jack, queen and king are replaced by bronze, silver and gold.
 {% hint style="info" %}
 For more information about User Settings, view the [User Settings](/Features/user-settings.md) article.
 {% endhint %}

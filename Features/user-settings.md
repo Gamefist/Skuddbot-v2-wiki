@@ -74,7 +74,7 @@ When changing this setting, enter negative numbers as `-12` and positive numbers
 {% endhint %}
 
 ### Gender neutral playing cards
-When this setting is set to `true`, the suits jack, queen and king, are replaced by bronze, silver and gold in minigames that use playing cards.
+When this setting is set to `true`, the ranks jack, queen and king, are replaced by bronze, silver and gold in minigames that use playing cards.
 This setting currently applies to the following minigames:
 * [Blackjack](/Minigames/blackjack.md)
 

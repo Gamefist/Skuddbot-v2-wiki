@@ -9,15 +9,16 @@ Skuddbot features an user settings system. This allows to change parts of Skuddb
 Settings are saved on a per-server-basis, so it is possible for users to have settings set to different values in different servers.
 
 ## Available settings
-| Setting Name                                    | Technical Name       | Short Description                                                 | Value Type | Default Value | Cooldown |
-|-------------------------------------------------|----------------------|-------------------------------------------------------------------|------------|---------------|----------|
-| [Level up notification](#level-up-notification) | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.                     | String     | REACTION      | None     |
-| [Tracking enabled](#track-me)                   | `TRACK_ME`           | Defines if the bot will track your statistics.                    | Boolean    | true          | None     |
-| [Profile private](#profile-private)             | `PROFILE_PRIVATE`    | Defines if your profile is private.                               | Boolean    | false         | None     |
-| [Mention me](#mention-me)                       | `MENTION_ME`         | Defines if you are mentioned in useless commands.                 | Boolean    | false         | None     |
-| [Minigame reminders](#minigame-reminders)       | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames           | Boolean    | true          | None     |
-| [Default bet](#default-bet)                     | `DEFAULT_BET`        | Defines the default bet used in various minigames.                | Number     | 50            | None     |
-| [Timezone](#timezone)                           | `TIMEZONE`           | Defines your timezone, to offset different time based activities. | Number     | 0             | 24 hours |
+| Setting Name                                                 | Technical Name       | Short Description                                                 | Value Type | Default Value | Cooldown |
+|--------------------------------------------------------------|----------------------|-------------------------------------------------------------------|------------|---------------|----------|
+| [Level up notification](#level-up-notification)              | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.                     | String     | REACTION      | None     |
+| [Tracking enabled](#track-me)                                | `TRACK_ME`           | Defines if the bot will track your statistics.                    | Boolean    | true          | None     |
+| [Profile private](#profile-private)                          | `PROFILE_PRIVATE`    | Defines if your profile is private.                               | Boolean    | false         | None     |
+| [Mention me](#mention-me)                                    | `MENTION_ME`         | Defines if you are mentioned in useless commands.                 | Boolean    | false         | None     |
+| [Minigame reminders](#minigame-reminders)                    | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames           | Boolean    | true          | None     |
+| [Default bet](#default-bet)                                  | `DEFAULT_BET`        | Defines the default bet used in various minigames.                | Number     | 50            | None     |
+| [Timezone](#timezone)                                        | `TIMEZONE`           | Defines your timezone, to offset different time based activities. | Number     | 0             | 24 hours |
+| [Gender neutral playing cards](#gender-neutral-playingcards) | `GN_PLAYING_CARDS`   | Defines whether you want to use gender neutral playing cards.     | Boolean    | true          | None     |
 
 ## Setting details
 ### Level up notification
@@ -71,6 +72,11 @@ To figure out what your offset is, you can use the list of timezones on [timeand
 {% hint style="warning" %}
 When changing this setting, enter negative numbers as `-12` and positive numbers as `12` (no plus sign).
 {% endhint %}
+
+### Gender neutral playing cards
+When this setting is set to `true`, the suits jack, queen and king, are replaced by bronze, silver and gold in minigames that use playing cards.
+This setting currently applies to the following minigames:
+* [Blackjack](/Minigames/blackjack.md)
 
 ## Command
 The command for viewing and editing user settings is: `!usersettings`.   

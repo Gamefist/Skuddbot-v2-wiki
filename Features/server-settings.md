@@ -1,9 +1,5 @@
 # Server settings
 
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
-
 ## Introduction
 Skuddbot features an server settings. This allows server owners to change parts of Skuddbot to their liking and tailor their own Skuddbot experience for their server. 
 

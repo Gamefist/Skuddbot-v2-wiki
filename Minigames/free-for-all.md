@@ -1,7 +1,4 @@
 # Free for All
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
 
 ## Introduction
 Free for All is a minigame where multiple users can battle, but only one will emerge victorious!

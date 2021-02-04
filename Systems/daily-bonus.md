@@ -1,9 +1,5 @@
 # Daily bonus
 
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
-
 ## Introduction
 Users can claim a bonus of experience and currency each day. Bonuses scale exponentially if an user can upkeep their streak for claiming their bonus every day.
 

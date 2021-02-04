@@ -1,9 +1,5 @@
 # Stats
 
-{% hint style="warning" %}
-This page contains features that have not yet been released! Features mentioned on this page may not be final.
-{% endhint %}
-
 ## Introduction
 Skuddbot features a stats system, where all kinds of statistics about the user are tracked. Users can build up their statistics by chatting and playing minigames.
 

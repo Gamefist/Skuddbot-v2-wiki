@@ -1,7 +1,4 @@
 # Jackpot
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
 
 ## Introduction
 The Jackpot is a system that allows a jackpot to continously build up over time and that users can win to claim the amount that is in the jackpot at that time.

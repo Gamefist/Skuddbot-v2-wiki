@@ -1,9 +1,5 @@
 # Message Database
 
-{% hint style="warning" %}
-This page contains features that have not yet been released! Features mentioned on this page may not be final.
-{% endhint %}
-
 ## Introduction
 The message database is a feature where donators can add strings of text to a list of messages. These messages are used throughout the bot mostly in a random fashion. 
 

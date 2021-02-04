@@ -1,7 +1,4 @@
 # Blackjack
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
 
 ## Introduction
 In this minigame a user can play a game of Blackjack against a dealer.

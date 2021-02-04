@@ -1,9 +1,5 @@
 # Purge command
 
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
-
 ## Introduction
 The purge feature allows server owners to mass delete messages using Skuddbot.
 

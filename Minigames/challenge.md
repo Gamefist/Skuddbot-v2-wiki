@@ -1,7 +1,4 @@
 # Challenge
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
 
 ## Introduction
 Challenge is a minigame where users can challenge each other to a one on one battle. The winner is chosen at random and is rewarded with experience. Users can also place bets.

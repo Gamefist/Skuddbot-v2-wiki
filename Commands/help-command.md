@@ -1,9 +1,4 @@
 # Help command
-
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
-
 ## Introduction
 The help command shows all commands available to a user. It shows the command with the aliasses, a short description and a Wiki link if applicable.
 

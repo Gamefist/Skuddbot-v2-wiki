@@ -12,9 +12,9 @@ The [command](#command) section contains more details about the command.
 {% endhint %}
 
 ### Entering the game
-When a game is outstanding, a user can enter the game in 2 ways, without a bet or with a bet. Entering without a bet may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as bet they click the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bet>`. To go all in, the user types the command `!freeforall all`.
+When a game is outstanding, a user can enter the game in 2 ways, without a bet or with a bet. Entering without a bet may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as bet they click the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bet>`. 
 {% hint style="info" %}
-* For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
+* Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
 * For more information about the betting system, view the [betting system](#betting-system) section.
 {% endhint %}
 
@@ -24,7 +24,7 @@ A user can leave the game by removing either the ![](https://i.imgur.com/o8SZQlF
 It does not matter whether they betted or not. Removing the ![](https://i.imgur.com/LqZbyj6.png) reaction will also cause the user to be removed from the game even if they did not place a bet. The reverse is also true.
 
 #### Using commands
-A user can simply leave the game by typing `!freeforall leave`.
+A user can  leave the game by typing `!freeforall leave`, any placed bet will be refunded.
 
 ### Changing bets
 If a user wants to change their bet, they first must leave the game and then re-join it with their new bet.
@@ -104,16 +104,19 @@ This command also listens to the following alias: `!ffa`.
 |-----------|---------|------------------------------------------------------------------|-----------|
 | Bet       | Number  | Defines the bet the user wants to place.                         | No        |
 | **OR**    |         |                                                                  |           |
-| `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |
+| `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |{% hint style="info" %}
+Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
+{% endhint %}
+
 
 #### Command examples
-| Example             | Action                                                                          | Response                                                  |
-|---------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------|
-| `!freeforall`       | The user will be entered into the game with their default bet as their bet.     | The message is deleted and the game message updated.      |
-| `!freeforall 0`     | The user will be entered into the game with no bet.                             | The message is deleted and the game message updated.      |
-| `!freeforall 100`   | The user will be entered into the game with 100 Skuddbux as their bet.          | The message is deleted and the game message updated.      |
-| `!freeforall all`   | The user will be entered into the game with all of their Skuddbux as their bet. | The message is deleted and the game message updated.      |
-| `!freeforall leave` | The user leaves the game.                                                       | Confirmation of game leaving and game message is updated. |
+| Example                          | Action                                                                      | Response                                                  |
+|----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------|
+| `!freeforall`                    | The user will be entered into the game with their default bet as their bet. | The message is deleted and the game message updated.      |
+| `!freeforall 0`                  | The user will be entered into the game with no bet.                         | The message is deleted and the game message updated.      |
+| `!freeforall 100`                | The user will be entered into the game with 100 Skuddbux as their bet.      | The message is deleted and the game message updated.      |
+| `!freeforall <betting shortcut>` | The user will be entered into the game with the specified bet.              | The message is deleted and the game message updated.      |
+| `!freeforall leave`              | The user leaves the game.                                                   | Confirmation of game leaving and game message is updated. |
 {% hint style="info" %}
 * When there's no current game active, using a command to enter the game will automatically create a new game.
 * Reactions can be clicked to get a more detailed response.

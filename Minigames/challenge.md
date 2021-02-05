@@ -94,30 +94,33 @@ This command also listens to the following aliases:
 * `!1v1`
 
 #### Command parameters
-| Parameter | Type         | Description                                                                                                              | Required |
-|-----------|--------------|--------------------------------------------------------------------------------------------------------------------------|----------|
-| Mention   | User Mention | Defines which user needs to be challenged, accepts when there's a eligible challenge outstanding.                        | Yes      |
-| Decline   | Keyword      | Defines if the user wants to decline a fight.                                                                            | No       |
-| Bet       | Number       | Defines the bet the user wants to place. Defaults to the user's `DEFAULT_BET` setting. - Can also be "all" to go all in. | No       |
-| **OR**    |              |                                                                                                                          |          |
-| `open`    | Keyword      | When the open keyword is provided, a open challenge will be started.                                                     | Yes      |
-| Bet       | Number       | Defines the bet the user wants to place. Defaults to the user's `DEFAULT_BET` setting. - Can also be "all" to go all in. | No       |
-| **OR**    |              |                                                                                                                          |          |
-| `cancel`  | Keyword      | When the cancel keyword is provided, the user's outstanding challenge will be cancelled.                                 | Yes      |
+| Parameter | Type            | Description                                                                                       | Required |
+|-----------|-----------------|---------------------------------------------------------------------------------------------------|----------|
+| Mention   | User Mention    | Defines which user needs to be challenged, accepts when there's a eligible challenge outstanding. | Yes      |
+| Decline   | Keyword         | Defines if the user wants to decline a fight.                                                     | No       |
+| Bet       | Number / String | Defines the bet the user wants to place.                                                          | No       |
+| **OR**    |                 |                                                                                                   |          |
+| `open`    | Keyword         | When the open keyword is provided, a open challenge will be started.                              | Yes      |
+| Bet       | Number / String | Defines the bet the user wants to place.                                                          | No       |
+| **OR**    |                 |                                                                                                   |          |
+| `cancel`  | Keyword         | When the cancel keyword is provided, the user's outstanding challenge will be cancelled.          | Yes      |
+{% hint style="info" %}
+Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
+{% endhint %}
 
 #### Command examples
-| Example                                 | Action                                                                                                                                               | Response                                                      |
-|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| `!challenge @MyNameIsDave#0123`         | User `MyNameIsDave#0123` will be challenged with the user's `DEFAULT_BET` value as the bet or when there's a eligible challenge it will be accepted. | A new challenge or a fight is started                         |
-| `!challenge @MyNameIsDave#0123 100`     | User `MyNameIsDave#0123` will be challenged to a fight with 100 Skuddbux as the bet.                                                                 | A new challenge.                                              |
-| `!challenge @MyNameIsDave#0123 all`     | User `MyNameIsDave#0123` will be challenged to a fight and the user will go all-in on the bet.                                                       | A new challenge.                                              |
-| `!challenge @MyNameIsDave#0123 0`       | User `MyNameIsDave#0123` will be challenged to a fight with no bet.                                                                                  | A new challenge.                                              |
-| `!challenge @MyNameIsDave#0123 decline` | If there's a outstanding fight with user `MyNameIsDave#0123` it will be declined.                                                                    | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
-| `!challenge open`                       | A new open challenge is started user's `DEFAULT_BET` value as the bet.                                                                               | A new open challenge.                                         |
-| `!challenge open 100`                   | A new open challenge is started with 100 Skuddbux as the bet.                                                                                        | A new open challenge.                                         |
-| `!challenge open all`                   | A new open challenge is started and the user will go all-in on the bet.                                                                              | A new open challenge.                                         |
-| `!challenge open 0`                     | A new open challenge is started with no bet.                                                                                                         | A new open challenge.                                         |
-| `!challenge cancel`                     | If there's one, the outstanding challenge is canceled.                                                                                               | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
+| Example                                            | Action                                                                                                                                               | Response                                                      |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| `!challenge @MyNameIsDave#0123`                    | User `MyNameIsDave#0123` will be challenged with the user's `DEFAULT_BET` value as the bet or when there's a eligible challenge it will be accepted. | A new challenge or a fight is started                         |
+| `!challenge @MyNameIsDave#0123 100`                | User `MyNameIsDave#0123` will be challenged to a fight with 100 Skuddbux as the bet.                                                                 | A new challenge.                                              |
+| `!challenge @MyNameIsDave#0123 <betting shortcut>` | User `MyNameIsDave#0123` will be challenged to a fight with the specified bet.                                                                       | A new challenge.                                              |
+| `!challenge @MyNameIsDave#0123 0`                  | User `MyNameIsDave#0123` will be challenged to a fight with no bet.                                                                                  | A new challenge.                                              |
+| `!challenge @MyNameIsDave#0123 decline`            | If there's a outstanding fight with user `MyNameIsDave#0123` it will be declined.                                                                    | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
+| `!challenge open`                                  | A new open challenge is started user's `DEFAULT_BET` value as the bet.                                                                               | A new open challenge.                                         |
+| `!challenge open 100`                              | A new open challenge is started with 100 Skuddbux as the bet.                                                                                        | A new open challenge.                                         |
+| `!challenge open <betting shortcut>`               | A new open challenge is started with the specified bet.                                                                                              | A new open challenge.                                         |
+| `!challenge open 0`                                | A new open challenge is started with no bet.                                                                                                         | A new open challenge.                                         |
+| `!challenge cancel`                                | If there's one, the outstanding challenge is canceled.                                                                                               | ![](https://i.imgur.com/rEFJP65.png) reaction on the message. |
 {% hint style="info" %}
 Reactions can be clicked to get a more detailed response.
 {% endhint %}

@@ -124,16 +124,19 @@ This command also listens to the following aliases:
 * `!deal`
 
 #### Command parameters
-| Parameter | Type   | Description                                                                                   | Required                             |
-|-----------|--------|-----------------------------------------------------------------------------------------------|--------------------------------------|
-| Bet       | Number | Defines the bet that the user wants to place. - Defaults to the user's `DEFAULT_BET` setting. | ![](https://i.imgur.com/n2UfbMz.png) |
+| Parameter | Type            | Description                                   | Required                             |
+|-----------|-----------------|-----------------------------------------------|--------------------------------------|
+| Bet       | Number / String | Defines the bet that the user wants to place. | ![](https://i.imgur.com/n2UfbMz.png) |
+{% hint style="info" %}
+Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
+{% endhint %}
 
 #### Command examples
-| Example          | Action                                                                           | Response                 |
-|------------------|----------------------------------------------------------------------------------|--------------------------|
-| `!blackjack`     | Starts a new game of Blackjack with the user's `DEFAULT_BET` setting as the bet. | A new game of Blackjack. |
-| `!blackjack 100` | Starts a new game of Blackjack with 100 Skuddbux as the bet.                     | A new game of Blackjack. |
-
+| Example                         | Action                                                                           | Response                 |
+|---------------------------------|----------------------------------------------------------------------------------|--------------------------|
+| `!blackjack`                    | Starts a new game of Blackjack with the user's `DEFAULT_BET` setting as the bet. | A new game of Blackjack. |
+| `!blackjack 100`                | Starts a new game of Blackjack with 100 Skuddbux as the bet.                     | A new game of Blackjack. |
+| `!blackjack <betting shortcut>` | Starts a new game of Blackjack with the specified bet.                           | A new game of Blackjack. |
 {% hint style="info" %}
 For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
 {% endhint %}

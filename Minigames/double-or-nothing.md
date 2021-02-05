@@ -57,19 +57,19 @@ This command also listens to the following alias:
 - `!don`
 
 #### Command parameter
-| Parameter    | Type            | Description                                                                                                   | Required? |
-|--------------|-----------------|---------------------------------------------------------------------------------------------------------------|-----------|
-| Bet / All In | Number / String | Defines the bet of the user, defaults to the `DEFAULT_BET` setting of the user. / Can be "all" to bet all in. | No        |
+| Parameter | Type            | Description                                   | Required                             |
+|-----------|-----------------|-----------------------------------------------|--------------------------------------|
+| Bet       | Number / String | Defines the bet that the user wants to place. | ![](https://i.imgur.com/n2UfbMz.png) |
 {% hint style="info" %}
-For more information about the [default bet](/Features/user-settings.md#default-bet) setting, view the [user settings](/Features/user-settings.md) article.
+Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
 {% endhint %}
 
 #### Command examples
-| Example                | Action                                                                                    | Response                         |
-|------------------------|-------------------------------------------------------------------------------------------|----------------------------------|
-| `!doubleornothing`     | Starts a new game of Double or Nothing with the default bet as the bet.                   | A new game of Double or Nothing. |
-| `!doubleornothing 100` | Starts a new game of Double or Nothing with the bet set to 100.                           | A new game of Double or Nothing. |
-| `!doubleornothing all` | Starts a new game of Double or Nothing with the bet set to your current Skuddbux balance. | A new game of Double or Nothing. |
+| Example                               | Action                                                                  | Response                         |
+|---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
+| `!doubleornothing`                    | Starts a new game of Double or Nothing with the default bet as the bet. | A new game of Double or Nothing. |
+| `!doubleornothing 100`                | Starts a new game of Double or Nothing with the bet set to 100.         | A new game of Double or Nothing. |
+| `!doubleornothing <betting shortcut>` | Starts a new game of Double or Nothing with the specified bet.          | A new game of Double or Nothing. |
 
 #### Permission requirements
 This command requires no permissions.

@@ -15,6 +15,9 @@ Currently the following minigames support these betting shortcuts:
 - [Double or Nothing](/Minigames/double-or-nothing.md)
 
 ## Global Shortcuts
+### Number
+An user may specify an number as a bet, this will then become their bet.
+
 ### Default Bet
 Specifying `bet` or nothing, will make the bet  be what the user's `DFAUALT_BET` user setting is set to.
 {% hint style="info" %}

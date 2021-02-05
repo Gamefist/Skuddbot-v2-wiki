@@ -15,6 +15,7 @@
     * [Stats](/Features/stats.md)
     * [User settings](/Features/user-settings.md)
 * Minigames
+    * [Betting shortcuts](/Minigames/betting-shortcuts.md)
     * [Blackjack](/Minigames/blackjack.md)
     * [Challenge](/Minigames/challenge.md)
     * [Double or Nothing](/Minigames/double-or-nothing.md)

@@ -1,4 +1,8 @@
 # Betting shortcuts
+
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
  
 ## Introduction
 Skuddbot features various shortcuts for betting, these consist of certain keywords and numbers with suffixes.
@@ -15,9 +19,6 @@ Currently the following minigames support these betting shortcuts:
 Specifying `bet` or nothing, will make the bet  be what the user's `DFAUALT_BET` user setting is set to.
 {% hint style="info" %}
 For more information about the [default bet](/Features/user-settings.md#default-bet), view the [user settings](/Features/user-settings.md) article.
-{% endhint %}
-{% hint style="warning" %}
-[Free for All](/Minigames/free-for-all.md) has it's own behaviour on default bets, refer to the [Free for All](/Minigames/free-for-all.md) article for more information.
 {% endhint %}
 
 ###  All-in

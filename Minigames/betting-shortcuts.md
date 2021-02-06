@@ -41,4 +41,4 @@ Example: The user specifies `10k` as their bet, then the bet will be 10.000.
 ## Game specific shortcuts
 ### Free for All
 #### Match
-Specifying `match` will match the highest bet currently entered in the Free for All.
+Specifying `match` will match the highest bet currently entered in the Free for All. When no users are entred, the bet will be 0.

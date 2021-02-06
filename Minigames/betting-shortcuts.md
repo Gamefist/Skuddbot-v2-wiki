@@ -9,10 +9,10 @@ Skuddbot features various shortcuts for betting, these consist of certain keywor
  
 ## Applicable Minigames
 Currently the following minigames support these betting shortcuts:
-- [Free for All](/Minigames/free-for-all.md)
-- [Challenge](/Minigames/challenge.md)
 - [Blackjack](/Minigames/blackjack.md)
+- [Challenge](/Minigames/challenge.md)
 - [Double or Nothing](/Minigames/double-or-nothing.md)
+- [Free for All](/Minigames/free-for-all.md)
 
 ## Global Shortcuts
 ### Number

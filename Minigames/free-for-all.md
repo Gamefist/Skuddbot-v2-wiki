@@ -12,7 +12,7 @@ The [command](#command) section contains more details about the command.
 {% endhint %}
 
 ### Entering the game
-When a game is outstanding, a user can enter the game in 2 ways, without a bet or with a bet. Entering without a bet may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as bet they click the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bet>`. 
+When a game is outstanding, a user can enter the game in 2 ways, without a bet or with a bet. Entering without a bet may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as bet they click the ![](https://i.imgur.com/rgDJ0uw.png) reaction. To match the highest current bet, the user clicks the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bet>`. 
 {% hint style="info" %}
 * Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
 * For more information about the betting system, view the [betting system](#betting-system) section.
@@ -20,8 +20,8 @@ When a game is outstanding, a user can enter the game in 2 ways, without a bet o
 
 ### Leaving the game
 #### Using reactions
-A user can leave the game by removing either the ![](https://i.imgur.com/o8SZQlF.png) or the ![](https://i.imgur.com/LqZbyj6.png) reaction.
-It does not matter whether they betted or not. Removing the ![](https://i.imgur.com/LqZbyj6.png) reaction will also cause the user to be removed from the game even if they did not place a bet. The reverse is also true.
+A user can leave the game by removing either the ![](https://i.imgur.com/o8SZQlF.png), ![](https://i.imgur.com/rgDJ0uw.png) or ![](https://i.imgur.com/LqZbyj6.png) reaction.
+It does not matter whether they betted or not. Removing of those reactions will make the user leave the game.
 
 #### Using commands
 A user can  leave the game by typing `!freeforall leave`, any placed bet will be refunded.

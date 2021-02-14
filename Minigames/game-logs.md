@@ -5,17 +5,17 @@ This page contains features that have not yet been released! Features mentioned 
 {% endhint %}
 
 ## Introduction
-Game logs is a feature that generates text files with the history of what happens in minigames. These text files can be downloaded and opened to see what happened. They typically contain more verbose logging than what is visible in Discord. - They are not meant to be a replacement, but an addition to what is visible in Discord.
+Game Logs is a feature that generates text files with the history of what happens in minigames. These text files can be downloaded and opened to see what happened. They typically contain more verbose logging than what is visible in Discord. - They are not meant to be a replacement, but an addition to what is visible in Discord.
 
 ## Supported minigames
 Currently the following minigames have support for game logs:
 * [Free for All](/Minigames/free-for-all.md)
 
-## Obtaining a Game log
-Game logs are available through reactions, when a game log is avaiable, the bot will add a reaction to the message (the emoji may vary), which will present the user with a download link once the reaction has been clicked. Just like any other reaction, it will expire after a set amount of time (this time may vary).
+## Obtaining a Game Log
+Game logs are available through reactions, when a Game Log is avaiable, the bot will add a reaction to the message (the emoji may vary), which will present the user with a download link once the reaction has been clicked. Just like any other reaction, it will expire after a set amount of time (this time may vary).
 
 ## Anonymized usernames
-Users can choose to let their names be anonymized. Game logs do not show full Discord usernames and discriminators combinatons, but just Nicknames. But when a user does not have a nickname set, their full username will still be shown, just without the discriminator.
+Users can choose to let their names be anonymized. Game Logs do not show full Discord usernames and discriminators combinatons, but just nicknames. But when a user does not have a nickname set, their full username will still be shown, just without the discriminator.
 Users can turn this setting on by setting the User setting `ANON_GAME_LOG` to `true`.
 {% hint style="info" %}
 For more information about User Settings, view the [User Settings](/Features/user-settings.md) article.

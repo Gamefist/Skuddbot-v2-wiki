@@ -1,8 +1,4 @@
 # Betting shortcuts
-
-{% hint style="warning" %}
-This page contains features that are currently released in **BETA** they may or may not work, and may change at any time!
-{% endhint %}
  
 ## Introduction
 Skuddbot features various shortcuts for betting, these consist of certain keywords and numbers with suffixes.

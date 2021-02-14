@@ -1,20 +1,25 @@
 # User settings
 
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
 ## Introduction
 Skuddbot features an user settings system. This allows to change parts of Skuddbot to their liking, and tailor their own experience with the bot.
 Settings are saved on a per-server-basis, so it is possible for users to have settings set to different values in different servers.
 
 ## Available settings
-| Setting Name                                                 | Technical Name       | Short Description                                                 | Value Type | Default Value | Cooldown |
-|--------------------------------------------------------------|----------------------|-------------------------------------------------------------------|------------|---------------|----------|
-| [Level up notification](#level-up-notification)              | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.                     | String     | REACTION      | None     |
-| [Tracking enabled](#track-me)                                | `TRACK_ME`           | Defines if the bot will track your statistics.                    | Boolean    | true          | None     |
-| [Profile private](#profile-private)                          | `PROFILE_PRIVATE`    | Defines if your profile is private.                               | Boolean    | false         | None     |
-| [Mention me](#mention-me)                                    | `MENTION_ME`         | Defines if you are mentioned in useless commands.                 | Boolean    | false         | None     |
-| [Minigame reminders](#minigame-reminders)                    | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames           | Boolean    | true          | None     |
-| [Default bet](#default-bet)                                  | `DEFAULT_BET`        | Defines the default bet used in various minigames.                | Number     | 50            | None     |
-| [Timezone](#timezone)                                        | `TIMEZONE`           | Defines your timezone, to offset different time based activities. | Number     | 0             | 24 hours |
-| [Gender neutral playing cards](#gender-neutral-playingcards) | `GN_PLAYING_CARDS`   | Defines whether you want to use gender neutral playing cards.     | Boolean    | true          | None     |
+| Setting Name                                                    | Technical Name       | Short Description                                                 | Value Type | Default Value | Cooldown |
+|-----------------------------------------------------------------|----------------------|-------------------------------------------------------------------|------------|---------------|----------|
+| [Level up notification](#level-up-notification)                 | `LEVEL_UP_NOTIFY`    | Defines how you are notified about level ups.                     | String     | REACTION      | None     |
+| [Tracking enabled](#track-me)                                   | `TRACK_ME`           | Defines if the bot will track your statistics.                    | Boolean    | true          | None     |
+| [Profile private](#profile-private)                             | `PROFILE_PRIVATE`    | Defines if your profile is private.                               | Boolean    | false         | None     |
+| [Mention me](#mention-me)                                       | `MENTION_ME`         | Defines if you are mentioned in useless commands.                 | Boolean    | false         | None     |
+| [Minigame reminders](#minigame-reminders)                       | `MINIGAME_REMINDERS` | Defines if you are reminded about outstanding minigames           | Boolean    | true          | None     |
+| [Default bet](#default-bet)                                     | `DEFAULT_BET`        | Defines the default bet used in various minigames.                | Number     | 50            | None     |
+| [Timezone](#timezone)                                           | `TIMEZONE`           | Defines your timezone, to offset different time based activities. | Number     | 0             | 24 hours |
+| [Gender neutral playing cards](#gender-neutral-playingcards)    | `GN_PLAYING_CARDS`   | Defines whether you want to use gender neutral playing cards.     | Boolean    | true          | None     |
+| [Appear anonymous in Game Logs](#appear-anonymous-in-game-logs) | `ANON_GAME_LOG`      | Defines whether the user will appear anonymized in the Game Logs  | Boolean    | false         | None     |
 
 ## Setting details
 ### Level up notification
@@ -73,6 +78,12 @@ When changing this setting, enter negative numbers as `-12` and positive numbers
 When this setting is set to `true`, the ranks jack, queen and king, are replaced by bronze, silver and gold in minigames that use playing cards.
 This setting currently applies to the following minigames:
 * [Blackjack](/Minigames/blackjack.md)
+
+### Appear anonymous in Game Logs
+When a user does not want to appear with their name in the Game Logs, they can set this setting to `true`. This will make their name(s) appear anonymized in the Game Logs.
+{% hint style="info" %}
+For more information about [anonymized usernames in Game Logs](/Minigames/game-logs.md#anonymized-usernames), view the [Game Logs](/Minigames/game-logs.md) article.
+{% endhint %}
 
 ## Command
 The command for viewing and editing user settings is: `!usersettings`.   

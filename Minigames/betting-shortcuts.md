@@ -28,13 +28,14 @@ Specifying `half`, will make the bet be half of what the user's Skuddbux balance
 
 ### Percentages
 Specifying a percentage, will make the bet be what that percentage amount of the user's Skuddbux balance is.
-Example: The user has 150.000 Skuddbux, and specifies `15%` as their bet. Then their bet will be 15.000.
+Example: The user has 150 000 Skuddbux, and specifies `15%` as their bet. Then their bet will be 15 000. 
 
 ### Thousands
 Users can also specify a bet in thousands, then their bet will be that what they specify.
-Example: The user specifies `10k` as their bet, then the bet will be 10.000.
+Example: The user specifies `10k` as their bet, then the bet will be 10 000. Decimal points are also supported, meaning `1.5k` will translate to 1 500.
+
 
 ## Game specific shortcuts
 ### Free for All
 #### Match
-Specifying `match` will match the highest bet currently entered in the Free for All. When no users are entred, the bet will be 0.
+Specifying `match` will match the highest bet currently entered in the Free for All. When there are no users entred, the bet will be 0.

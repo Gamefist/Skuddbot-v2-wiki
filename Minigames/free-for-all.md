@@ -1,5 +1,9 @@
 # Free for All
 
+{% hint style="warning" %}
+This page contains features that have not yet been released! Features mentioned on this page may not be final.
+{% endhint %}
+
 ## Introduction
 Free for All is a minigame where multiple users can battle, but only one will emerge victorious!
 
@@ -12,22 +16,23 @@ The [command](#command) section contains more details about the command.
 {% endhint %}
 
 ### Entering the game
-When a game is outstanding, a user can enter the game in 2 ways, without a bet or with a bet. Entering without a bet may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as bet they click the ![](https://i.imgur.com/rgDJ0uw.png) reaction. To match the highest current bet, the user clicks the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bet>`. 
+When a game is outstanding, a user can enter the game in 2 ways, without a bounty or with a bounty. Entering without a bounty may be done by clicking the ![](https://i.imgur.com/o8SZQlF.png) reaction. When the user wants to enter with their default bet as the bounty they click the ![](https://i.imgur.com/rgDJ0uw.png) reaction. To match the highest current bounty, the user clicks the ![](https://i.imgur.com/LqZbyj6.png) reaction. When a user wants to bet a different amount they use the command: `!freeforall <bounty>`. 
 {% hint style="info" %}
-* Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
-* For more information about the betting system, view the [betting system](#betting-system) section.
+
+* Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bounty.
+* For more information about the bounty system, view the [Bounty system](#bounty-system) section.
 {% endhint %}
 
 ### Leaving the game
 #### Using reactions
 A user can leave the game by removing either the ![](https://i.imgur.com/o8SZQlF.png), ![](https://i.imgur.com/rgDJ0uw.png) or ![](https://i.imgur.com/LqZbyj6.png) reaction.
-It does not matter whether they betted or not. Removing of those reactions will make the user leave the game.
+It does not matter whether they placed a bounty or not. Removing of those reactions will make the user leave the game.
 
 #### Using commands
-A user can  leave the game by typing `!freeforall leave`, any placed bet will be refunded.
+A user can leave the game by typing `!freeforall leave`, any placed bounty will be refunded.
 
-### Changing bets
-If a user wants to change their bet, they first must leave the game and then re-join it with their new bet.
+### Changing bounty
+If a user wants to change their bounty, they first must leave the game and then re-join it with their new bounty.
 
 ### Starting the fight
 When a game is outstanding, the host of the game can start the fight by clicking the ![](https://i.imgur.com/rEFJP65.png) reaction. The Free for All must contain at least 3 entrants for it to be started. When the game is started, the results will be revealed after 5 seconds.
@@ -40,7 +45,13 @@ For more information about permissions, view the [Permissions](/Systems/permissi
 {% endhint %}
 
 ### Post-game
-The fight of Free for All is simulated in the background, meaning users actually kill each other, from this the bot also generates a kill feed. The kill feed can be viewed by clicking the ![](https://i.imgur.com/7fUiBDQ.png) reaction. To view the rewards breakdown, click the ![](https://i.imgur.com/BlfMxg2.png) reaction.
+The fight of Free for All is simulated in the background, meaning users actually kill each other, from this the bot generates a kill feed. The kill feed can be viewed by clicking the ![](https://i.imgur.com/7fUiBDQ.png) reaction. To view the rewards breakdown, click the ![](https://i.imgur.com/BlfMxg2.png) reaction.  
+
+A more verbose kill feed and rewards are available via a Game Log, press the ![](https://i.imgur.com/mFwHxkd.png) reaction.
+
+{% hint style="info" %}
+For more information about Game Logs, view the [Game Logs](/Minigames/Game-Logs.md) article.
+{% endhint %}
 
 ## Stats
 | Stat                 | Technical name    | Tracks                                                          | Awarded                                            |
@@ -53,8 +64,10 @@ The fight of Free for All is simulated in the background, meaning users actually
 | Bets lost            | `FFA_BETS_LOST`   | The amount of bets the user has lost.                           | When the user loses a bet.                         |
 {% hint style="info" %}
 * For more information about stats, view the [stats](/Features/stats.md) article.
-* For more information about the betting system, view the [betting system](#betting-system) section.
-{% endhint %}
+
+* For more information about the betting system, view the [betting system](#betting-system) section.  
+
+  {% endhint %}
 
 ## Rewards
 This game gives out the following rewards:
@@ -64,19 +77,38 @@ This game gives out the following rewards:
 | Winning the game                             | +100xp, +50 Skuddbux, +1 FFA win |
 | Winning the game with a new highest entrants | FFA highest entrants updated     |
 
-## Betting system
-When a user enters a Free for All, they can place an optional bet. They are betting on themselves winning. When a user wins, and has placed a bet, they will win the amount of the bets from other entrants, and their own bet will double. When the winner hasn't betted, their will be no bets payed out.
-Stats on winning/losing bets are being tracked.
-{% hint style="info" %}
-* For information on how to place bets, view the [entering the game](#entering-the-game) section.
-* For more information on stats, view the [stats](#stats) section.
-{% endhint %}
+## Bounty system
+When a user enters a free for all they can place an optional bounty on their head. Others may collect this bounty by killing the user. The bounty also figures as a baseline for how much the user can collect from others, the more they place on their own head, the more they may collect from others.
 
-### Jackpot
-When the user that wins, hasn't betted, all bets will be added to the Jackpot.
+### Maximum earnings
+
+The bounty placed on the users head figures as a baseline for how much they can collect from other users. This number is 250% of their own bounty, if an user puts 100 Skuddbux on their own head, they may collect up to 250 Skuddbux per other player killed.
+
+### Collecting bounties
+
+Users may collect the bounties from other players, when the user kills another player, they take their full bounty, up to 250% of their own bounty. If there's any excess money, it stays with the victim.
+
+### Stealing bounties
+
+Collected bounties can be stolen, if a user gets killed by another player. They will lose half of their collected bounties, this amount goes to the killer, the other half they get to keep and will be paid out upon game end.
+
+### Surviving the bounty
+
+When the user wins the game, they will receive their own bounty double in addition to any other funds they collected during the game.
+
+### Filling up the jackpot
+
+Any funds that remain unclaimed after the game has ended, will get split in half. One half goes back to the user that placed that bounty on their own head, and the other half will contribute towards the jackpot.
+
 {% hint style="info" %}
-For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
-{% endhint %}
+
+* For information on how to place bounties, view the [entering the game](#entering-the-game) section.
+
+* For more information on stats, view the [stats](#stats) section.
+
+* For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
+
+  {% endhint %}
 
 ## Reminders and Auto-starting
 Every 6 hours the host will be reminded of a outstanding game via a DM, but only if the following conditions are met:
@@ -100,23 +132,25 @@ The command for Free for All is `!freeforall`.
 This command also listens to the following alias: `!ffa`.
 
 #### Command parameters
-| Parameter | Type    | Description                                                      | Required? |
-|-----------|---------|------------------------------------------------------------------|-----------|
-| Bet       | Number  | Defines the bet the user wants to place.                         | No        |
-| **OR**    |         |                                                                  |           |
-| `leave`   | Keyword | When the leave keyword is provided the user will leave the game. | Yes       |{% hint style="info" %}
-Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bet.
+| Parameter | Type   | Description                              | Required? |
+| --------- | ------ | ---------------------------------------- | --------- |
+| Bounty    | Number | Defines the bounty the user wants to place. | No        |
+| **OR**    |        |                                          |           |
+| `leave` | Keyword | When the leave keyword is provided the user will leave the game. | Yes  |
+
+{% hint style="info" %}
+Refer for to the [Betting Shortcuts](/Minigames/betting-shortcuts.md) articles, to see what shortcuts are currently available and what you can specify as your bounty.
 {% endhint %}
 
 
 #### Command examples
-| Example                          | Action                                                                      | Response                                                  |
-|----------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------|
-| `!freeforall`                    | The user will be entered into the game with their default bet as their bet. | The message is deleted and the game message updated.      |
-| `!freeforall 0`                  | The user will be entered into the game with no bet.                         | The message is deleted and the game message updated.      |
-| `!freeforall 100`                | The user will be entered into the game with 100 Skuddbux as their bet.      | The message is deleted and the game message updated.      |
-| `!freeforall <betting shortcut>` | The user will be entered into the game with the specified bet.              | The message is deleted and the game message updated.      |
-| `!freeforall leave`              | The user leaves the game.                                                   | Confirmation of game leaving and game message is updated. |
+| Example                          | Action                                                       | Response                                                  |
+| -------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
+| `!freeforall`                    | The user will be entered into the game with their default bet as their bounty. | The message is deleted and the game message updated.      |
+| `!freeforall 0`                  | The user will be entered into the game with no bounty.       | The message is deleted and the game message updated.      |
+| `!freeforall 100`                | The user will be entered into the game with 100 Skuddbux as their bounty. | The message is deleted and the game message updated.      |
+| `!freeforall <betting shortcut>` | The user will be entered into the game with the specified bet as their bounty. | The message is deleted and the game message updated.      |
+| `!freeforall leave`              | The user leaves the game.                                    | Confirmation of game leaving and game message is updated. |
 {% hint style="info" %}
 * When there's no current game active, using a command to enter the game will automatically create a new game.
 * Reactions can be clicked to get a more detailed response.

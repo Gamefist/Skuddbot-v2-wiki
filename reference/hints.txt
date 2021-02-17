@@ -6,6 +6,10 @@ For more information about permissions, view the [Permissions](/Systems/permissi
 For more information about User Settings, view the [User Settings](/Features/user-settings.md) article.
 {% endhint %}
 
+{% hint style="info" %}
+For more information about Game Logs, view the [Game Logs](/Minigames/Game-Logs.md) article.
+{% endhint %}
+
 {% hint style="warning" %}
 This page contains features that have not yet been released! Features mentioned on this page may not be final.
 {% endhint %}

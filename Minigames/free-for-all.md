@@ -90,7 +90,7 @@ Users may collect the bounties from other players, when the user kills another p
 
 ### Stealing bounties
 
-Collected bounties can be stolen, if a user gets killed by another player. They will lose half of their collected bounties, this amount goes to the killer, the other half they get to keep and will be paid out upon game end.
+Collected bounties can be stolen, if a user gets killed by another player. They will lose half of their collected bounties, this amount goes to the killer, the other half they get to keep and will be paid out upon game end. The 250% cap does not apply to stealing bounties.
 
 ### Surviving the bounty
 
@@ -102,11 +102,11 @@ Any funds that remain unclaimed after the game has ended, will get split in half
 
 {% hint style="info" %}
 
-* For information on how to place bounties, view the [entering the game](#entering-the-game) section.
+* For information on how to place bounties, view the [entering the game](#entering-the-game) section.  
 
-* For more information on stats, view the [stats](#stats) section.
+* For more information on stats, view the [stats](#stats) section.  
 
-* For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.
+* For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.  
 
   {% endhint %}
 

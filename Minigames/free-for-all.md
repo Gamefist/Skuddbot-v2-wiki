@@ -64,10 +64,8 @@ For more information about Game Logs, view the [Game Logs](/Minigames/Game-Logs.
 | Bets lost            | `FFA_BETS_LOST`   | The amount of bets the user has lost.                           | When the user loses a bet.                         |
 {% hint style="info" %}
 * For more information about stats, view the [stats](/Features/stats.md) article.
-
 * For more information about the betting system, view the [betting system](#betting-system) section.  
-
-  {% endhint %}
+{% endhint %}
 
 ## Rewards
 This game gives out the following rewards:
@@ -101,14 +99,10 @@ When the user wins the game, they will receive their own bounty double in additi
 Any funds that remain unclaimed after the game has ended, will get split in half. One half goes back to the user that placed that bounty on their own head, and the other half will contribute towards the jackpot.
 
 {% hint style="info" %}
-
 * For information on how to place bounties, view the [entering the game](#entering-the-game) section.  
-
 * For more information on stats, view the [stats](#stats) section.  
-
 * For more information about the jackpot, view the [jackpot](/Systems/jackpot.md) article.  
-
-  {% endhint %}
+{% endhint %}
 
 ## Reminders and Auto-starting
 Every 6 hours the host will be reminded of a outstanding game via a DM, but only if the following conditions are met:

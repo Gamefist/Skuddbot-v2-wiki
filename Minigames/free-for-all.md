@@ -47,7 +47,7 @@ For more information about permissions, view the [Permissions](/Systems/permissi
 ### Post-game
 The fight of Free for All is simulated in the background, meaning users actually kill each other, from this the bot generates a kill feed. The kill feed can be viewed by clicking the ![](https://i.imgur.com/7fUiBDQ.png) reaction. To view the rewards breakdown, click the ![](https://i.imgur.com/BlfMxg2.png) reaction.  
 
-A more verbose kill feed and rewards are available via a Game Log, press the ![](https://i.imgur.com/mFwHxkd.png) reaction.
+A more verbose kill feed and rewards are available via a Game Log, press the ![](https://i.imgur.com/mFwHxkd.png) reaction to receive the download link.
 
 {% hint style="info" %}
 For more information about Game Logs, view the [Game Logs](/Minigames/Game-Logs.md) article.
